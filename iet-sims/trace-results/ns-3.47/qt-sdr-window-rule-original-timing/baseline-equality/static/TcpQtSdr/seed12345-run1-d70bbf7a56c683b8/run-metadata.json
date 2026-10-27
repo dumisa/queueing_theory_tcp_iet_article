@@ -1,0 +1,17 @@
+{
+  "label": "static-TcpQtSdr-reference-100.0s-seed12345-run1",
+  "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-original-timing/baseline-equality/static/TcpQtSdr/seed12345-run1-d70bbf7a56c683b8",
+  "status": "completed",
+  "command": [
+    "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+    "--scenario=static",
+    "--transport_prot=TcpQtSdr",
+    "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-original-timing/baseline-equality",
+    "--sim_duration=100.0",
+    "--rngSeed=12345",
+    "--rngRun=1",
+    "--tracing=0"
+  ],
+  "sourceRevision": "d5d6e3b7264eb4ccae2f5739b4f5872612c2ed96762d6863a4a50af9f6112192",
+  "elapsedSeconds": 37.673
+}

@@ -1,0 +1,6 @@
+measurementSeconds=99.999989999999997
+receivedPayloadBytes=1179141152
+aggregateMeanGoodputMbps=94.331301593130149
+jainMeanGoodput=0.99528777226613097
+realisedCapacityMeanBps=100000000
+realisedCapacityScv=0

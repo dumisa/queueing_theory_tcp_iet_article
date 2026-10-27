@@ -1,0 +1,4 @@
+45/45 complete; 15 per scenario.
+All phases, row counts, receiver byte sums and final samples validated.
+All stochastic capacity paths match across algorithms within each regime.
+Default engine/source hashes unchanged. All five PNGs visually checked.

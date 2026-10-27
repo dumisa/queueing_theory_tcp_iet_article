@@ -1,0 +1,8 @@
+{
+  "version": "3.49",
+  "controllerRule": "default <=",
+  "sourceSha256": "11dff42a8d32eeaca3cc0e8464f1dc72b89be0b782b7abfbab5afea7b6b1ed1c",
+  "driverSha256": "1a6f0a935a53202b0cdc3b3c00d72be76c2e548e7fbbc1827b0a623a929c3ea5",
+  "binarySha256": "c099010d1e48d7c4ba82715ec3e2872d7ec48391c3bb47e4e8896f661a0e4dac",
+  "librarySha256": "0a55892bf10b5d0a69d451a8e00cc8cc07034821f4df74a89d3513bcd3154c11"
+}

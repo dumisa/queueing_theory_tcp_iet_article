@@ -1,0 +1,4 @@
+Full build: passed. TCP suite: passed.
+11 successful 100-second runs, each with 1000 aggregate and 5000 per-flow samples.
+The four unchanged algorithms have exactly matching CSV and totals outputs.
+The requested proposed source is installed and compiled.

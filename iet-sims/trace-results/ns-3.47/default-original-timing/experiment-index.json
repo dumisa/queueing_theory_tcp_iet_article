@@ -1,0 +1,91 @@
+{
+  "sourceRevision": "8c178122a50a2caba510a0f1cbd9dbf1ccf57639232935e9cba16758637f8711",
+  "runs": [
+    {
+      "label": "static-TcpBbr-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/default-original-timing/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "8c178122a50a2caba510a0f1cbd9dbf1ccf57639232935e9cba16758637f8711",
+      "elapsedSeconds": 41.275
+    },
+    {
+      "label": "static-TcpCubic-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/default-original-timing/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "8c178122a50a2caba510a0f1cbd9dbf1ccf57639232935e9cba16758637f8711",
+      "elapsedSeconds": 44.779
+    },
+    {
+      "label": "static-TcpNewReno-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/default-original-timing/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "8c178122a50a2caba510a0f1cbd9dbf1ccf57639232935e9cba16758637f8711",
+      "elapsedSeconds": 47.016
+    },
+    {
+      "label": "static-TcpQtSdr-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/default-original-timing/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "8c178122a50a2caba510a0f1cbd9dbf1ccf57639232935e9cba16758637f8711",
+      "elapsedSeconds": 39.23
+    },
+    {
+      "label": "static-TcpQtTor-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/default-original-timing/static/TcpQtTor/seed12345-run1-f3be366d00501eaa",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "8c178122a50a2caba510a0f1cbd9dbf1ccf57639232935e9cba16758637f8711",
+      "elapsedSeconds": 41.505
+    }
+  ],
+  "failures": []
+}

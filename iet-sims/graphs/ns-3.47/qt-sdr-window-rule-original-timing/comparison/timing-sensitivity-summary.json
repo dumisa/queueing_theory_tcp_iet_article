@@ -1,0 +1,88 @@
+{
+  "zeroStartStudy": [
+    {
+      "variant": "baseline-recorded",
+      "mean_goodput_mbps": 95.69102208,
+      "median_rtt_ms": 49.0,
+      "mean_rtt_ms": 51.2014,
+      "median_power": 0.7843516982113822,
+      "mean_power": 0.7562287199514166,
+      "jain_mean_goodput": 0.9603104810451673,
+      "median_inflight_packets": 410.0,
+      "max_inflight_1_to_60s": 688.0,
+      "samples_above500_1_to_60s": 66,
+      "received_payload_bytes": 1196137776
+    },
+    {
+      "variant": "baseline-equality",
+      "mean_goodput_mbps": 95.69102208,
+      "median_rtt_ms": 49.0,
+      "mean_rtt_ms": 51.2014,
+      "median_power": 0.7843516982113822,
+      "mean_power": 0.7562287199514166,
+      "jain_mean_goodput": 0.9603104810451673,
+      "median_inflight_packets": 410.0,
+      "max_inflight_1_to_60s": 688.0,
+      "samples_above500_1_to_60s": 66,
+      "received_payload_bytes": 1196137776
+    },
+    {
+      "variant": "proposed",
+      "mean_goodput_mbps": 95.86084352,
+      "median_rtt_ms": 49.0,
+      "mean_rtt_ms": 49.8206,
+      "median_power": 0.7875531337142857,
+      "mean_power": 0.7739819264366845,
+      "jain_mean_goodput": 0.9880155869713656,
+      "median_inflight_packets": 410.0,
+      "max_inflight_1_to_60s": 615.0,
+      "samples_above500_1_to_60s": 20,
+      "received_payload_bytes": 1198260544
+    }
+  ],
+  "originalTimingStudy": [
+    {
+      "variant": "baseline-recorded",
+      "mean_goodput_mbps": 95.61017532101754,
+      "median_rtt_ms": 48.8,
+      "mean_rtt_ms": 48.8928,
+      "median_power": 0.7907808104918034,
+      "mean_power": 0.7844449323663102,
+      "jain_mean_goodput": 0.9620015668326111,
+      "median_inflight_packets": 408.0,
+      "max_inflight_1_to_60s": 534.0,
+      "samples_above500_1_to_60s": 2,
+      "received_payload_bytes": 1195127072
+    },
+    {
+      "variant": "baseline-equality",
+      "mean_goodput_mbps": 95.61017532101754,
+      "median_rtt_ms": 48.8,
+      "mean_rtt_ms": 48.8928,
+      "median_power": 0.7907808104918034,
+      "mean_power": 0.7844449323663102,
+      "jain_mean_goodput": 0.9620015668326111,
+      "median_inflight_packets": 408.0,
+      "max_inflight_1_to_60s": 534.0,
+      "samples_above500_1_to_60s": 2,
+      "received_payload_bytes": 1195127072
+    },
+    {
+      "variant": "proposed",
+      "mean_goodput_mbps": 95.39795641979565,
+      "median_rtt_ms": 48.599999999999994,
+      "mean_rtt_ms": 48.968,
+      "median_power": 0.7917312681967213,
+      "mean_power": 0.7813795773666652,
+      "jain_mean_goodput": 0.925883860639507,
+      "median_inflight_packets": 407.0,
+      "max_inflight_1_to_60s": 564.0,
+      "samples_above500_1_to_60s": 7,
+      "received_payload_bytes": 1192474336
+    }
+  ],
+  "notes": [
+    "Single matched seed/run; no general robustness claim.",
+    "Only the original-timing runs are used in this folder's figures."
+  ]
+}

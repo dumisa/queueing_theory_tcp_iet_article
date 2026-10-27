@@ -57,7 +57,7 @@ The older generic `run_all.sh` launcher targets ns-3.49 but uses shared output p
 
 Before import, both installations passed their builds and relevant TCP tests. The ns-3.49 `tcp-qt` and `tcp` suites passed. The completed 50-case ns-3.49 run and corresponding ns-3.47 runs had matching timing, sample counts and byte accounting. All five static cases matched across versions; 40 of the 50 aggregate CSV outputs were identical. Ten nonstatic cases differed, so the simulator versions should not be treated as interchangeable.
 
-This upload does not rerun the experiments. The local installations and existing results remain unchanged. Compiled binaries, build caches, Python environments, generated traces, graphs and the unpublished article PDF are excluded. Experimental source backups are retained separately; their original local paths and historical notes may refer to the original machine. Rebuild variants before running them; their old compiled libraries are excluded.
+This upload does not rerun the experiments. The local installations and existing results remain unchanged. Compiled binaries, build caches, Python environments and the unpublished article PDF are excluded. Simulation results and graphs are now included; see `iet-sims/RESULTS.md`. Experimental source backups are retained separately; their original local paths and historical notes may refer to the original machine. Rebuild variants before running them; their old compiled libraries are excluded.
 
 ## Licensing
 

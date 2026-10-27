@@ -1,0 +1,4 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Finished executing the following commands:
+/Users/dumisangwenya/Development/ns3-install/tools/bin/cmake --build /Users/dumisangwenya/Development/ns3-install/ns-3.47/cmake-cache -j 8 --target tcp_qt_sims

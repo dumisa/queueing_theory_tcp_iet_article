@@ -1,0 +1,153 @@
+{
+  "plotScriptSha256": "0fd167b4586892aa03400fbb42c990f1ac544a2429b2d1c149c9dfa40d9f9482",
+  "matplotlibVersion": "3.3.2",
+  "numpyVersion": "1.18.5",
+  "family": "e74ef5daaf7ff4b6",
+  "settings": {
+    "bottleneckRate": "100Mbps",
+    "bottleneckDelay": "20ms",
+    "accessRate": "10Gbps",
+    "accessDelay": "0.01ms",
+    "flows": "5",
+    "mss": "1448",
+    "mtu": "1500",
+    "accessQueuePackets": "10000",
+    "socketBuffer": "1073741824",
+    "initialCwnd": "10",
+    "delayedAckCount": "2",
+    "duration": "100",
+    "appStart": "0",
+    "warmup": "0",
+    "interval": "0.10000000000000001",
+    "alpha": "1.2",
+    "epsilon": "1",
+    "muGain": "0.10000000000000001",
+    "muMin": "9.9999999999999995e-07",
+    "minControlScale": "25",
+    "controlFraction": "0.050000000000000003",
+    "seed": "12345",
+    "run": "1",
+    "ouStream": "42",
+    "tcpStream": "100",
+    "errorStream": "10000",
+    "recovery": "TcpClassicRecovery",
+    "reverseErrors": "false",
+    "sack": "true",
+    "timestamps": "true",
+    "ouStart": "0",
+    "ouInterval": "0.001",
+    "ouLower": "0.25",
+    "ouUpper": "1.75",
+    "bidirectionalOu": "false",
+    "qtTorFixed": "N:5,M:10,eta:0.05,delta:0.05,wR:1,wu:1,wDeltaU:1",
+    "controllerVersion": "local modified ns-3.49 Qt models; not the original paper binaries"
+  },
+  "sourceRevision": "a41413ec34df314b92a99411aafe97faea255d5fdd28015b6c6d50987807c83e",
+  "figures": [
+    {
+      "png": "/Users/dumisangwenya/Development/ns3-install/iet-sims/graphs/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/fig03_static_inflight.png",
+      "metric": "inflight_packets; first 60 seconds",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpBbr/seed12345-run1-9059f89c2b77b8c7",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpCubic/seed12345-run1-c8318b4f33af0bb7",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpNewReno/seed12345-run1-dd9071a305215629",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtSdr/seed12345-run1-796142101c708ba1",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtTor/seed12345-run1-5205e68f4428bbc7"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpBbr/seed12345-run1-9059f89c2b77b8c7": "836d899e2f56f07e978c00778ad83ad0d1196f9ff914d51b41a859a04c70a837",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpCubic/seed12345-run1-c8318b4f33af0bb7": "beb2109cd80e8736672ec4bb9f5628bf1e951acd409bba5c1597d0b53fa2b209",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpNewReno/seed12345-run1-dd9071a305215629": "8e2604c2bead09c65762bb52f6019578110139b29f0def39580de41abd9e104b",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtSdr/seed12345-run1-796142101c708ba1": "ab4493ed987fd8917240a8adba308a03def89c4bfa097d7d4f7bfe611454148b",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtTor/seed12345-run1-5205e68f4428bbc7": "cba60d78f50d3bb2a266565092f7235f91ceb15b39046e4542f93cb70718f370"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Development/ns3-install/iet-sims/graphs/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/fig04_static_rtt.png",
+      "metric": "mean_rtt_ms; temporal distribution of finite samples",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpBbr/seed12345-run1-9059f89c2b77b8c7",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpCubic/seed12345-run1-c8318b4f33af0bb7",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpNewReno/seed12345-run1-dd9071a305215629",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtSdr/seed12345-run1-796142101c708ba1",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtTor/seed12345-run1-5205e68f4428bbc7"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpBbr/seed12345-run1-9059f89c2b77b8c7": "836d899e2f56f07e978c00778ad83ad0d1196f9ff914d51b41a859a04c70a837",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpCubic/seed12345-run1-c8318b4f33af0bb7": "beb2109cd80e8736672ec4bb9f5628bf1e951acd409bba5c1597d0b53fa2b209",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpNewReno/seed12345-run1-dd9071a305215629": "8e2604c2bead09c65762bb52f6019578110139b29f0def39580de41abd9e104b",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtSdr/seed12345-run1-796142101c708ba1": "ab4493ed987fd8917240a8adba308a03def89c4bfa097d7d4f7bfe611454148b",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtTor/seed12345-run1-5205e68f4428bbc7": "cba60d78f50d3bb2a266565092f7235f91ceb15b39046e4542f93cb70718f370"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Development/ns3-install/iet-sims/graphs/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/fig05_static_power.png",
+      "metric": "power_norm; temporal distribution of finite samples",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpBbr/seed12345-run1-9059f89c2b77b8c7",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpCubic/seed12345-run1-c8318b4f33af0bb7",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpNewReno/seed12345-run1-dd9071a305215629",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtSdr/seed12345-run1-796142101c708ba1",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtTor/seed12345-run1-5205e68f4428bbc7"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpBbr/seed12345-run1-9059f89c2b77b8c7": "836d899e2f56f07e978c00778ad83ad0d1196f9ff914d51b41a859a04c70a837",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpCubic/seed12345-run1-c8318b4f33af0bb7": "beb2109cd80e8736672ec4bb9f5628bf1e951acd409bba5c1597d0b53fa2b209",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpNewReno/seed12345-run1-dd9071a305215629": "8e2604c2bead09c65762bb52f6019578110139b29f0def39580de41abd9e104b",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtSdr/seed12345-run1-796142101c708ba1": "ab4493ed987fd8917240a8adba308a03def89c4bfa097d7d4f7bfe611454148b",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtTor/seed12345-run1-5205e68f4428bbc7": "cba60d78f50d3bb2a266565092f7235f91ceb15b39046e4542f93cb70718f370"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Development/ns3-install/iet-sims/graphs/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/fig06_static_goodput.png",
+      "metric": "sum of per-flow mean receiver goodput",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpBbr/seed12345-run1-9059f89c2b77b8c7",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpCubic/seed12345-run1-c8318b4f33af0bb7",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpNewReno/seed12345-run1-dd9071a305215629",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtSdr/seed12345-run1-796142101c708ba1",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtTor/seed12345-run1-5205e68f4428bbc7"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpBbr/seed12345-run1-9059f89c2b77b8c7": "836d899e2f56f07e978c00778ad83ad0d1196f9ff914d51b41a859a04c70a837",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpCubic/seed12345-run1-c8318b4f33af0bb7": "beb2109cd80e8736672ec4bb9f5628bf1e951acd409bba5c1597d0b53fa2b209",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpNewReno/seed12345-run1-dd9071a305215629": "8e2604c2bead09c65762bb52f6019578110139b29f0def39580de41abd9e104b",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtSdr/seed12345-run1-796142101c708ba1": "ab4493ed987fd8917240a8adba308a03def89c4bfa097d7d4f7bfe611454148b",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtTor/seed12345-run1-5205e68f4428bbc7": "cba60d78f50d3bb2a266565092f7235f91ceb15b39046e4542f93cb70718f370"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Development/ns3-install/iet-sims/graphs/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/fig07_static_fairness.png",
+      "metric": "Jain of time-averaged per-flow receiver goodput",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpBbr/seed12345-run1-9059f89c2b77b8c7",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpCubic/seed12345-run1-c8318b4f33af0bb7",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpNewReno/seed12345-run1-dd9071a305215629",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtSdr/seed12345-run1-796142101c708ba1",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtTor/seed12345-run1-5205e68f4428bbc7"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpBbr/seed12345-run1-9059f89c2b77b8c7": "836d899e2f56f07e978c00778ad83ad0d1196f9ff914d51b41a859a04c70a837",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpCubic/seed12345-run1-c8318b4f33af0bb7": "beb2109cd80e8736672ec4bb9f5628bf1e951acd409bba5c1597d0b53fa2b209",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpNewReno/seed12345-run1-dd9071a305215629": "8e2604c2bead09c65762bb52f6019578110139b29f0def39580de41abd9e104b",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtSdr/seed12345-run1-796142101c708ba1": "ab4493ed987fd8917240a8adba308a03def89c4bfa097d7d4f7bfe611454148b",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtTor/seed12345-run1-5205e68f4428bbc7": "cba60d78f50d3bb2a266565092f7235f91ceb15b39046e4542f93cb70718f370"
+      }
+    }
+  ],
+  "skippedComparisons": [
+    "buffer missing cells: [('buffer', '483', 'TcpNewReno'), ('buffer', '483', 'TcpCubic'), ('buffer', '483', 'TcpBbr'), ('buffer', '483', 'TcpQtSdr'), ('buffer', '483', 'TcpQtTor'), ('buffer', '690', 'TcpNewReno'), ('buffer', '690', 'TcpCubic'), ('buffer', '690', 'TcpBbr'), ('buffer', '690', 'TcpQtSdr'), ('buffer', '690', 'TcpQtTor'), ('buffer', '1381', 'TcpNewReno'), ('buffer', '1381', 'TcpCubic'), ('buffer', '1381', 'TcpBbr'), ('buffer', '1381', 'TcpQtSdr'), ('buffer', '1381', 'TcpQtTor')]",
+    "loss missing cells: [('loss', '1e-06', 'TcpNewReno'), ('loss', '1e-06', 'TcpCubic'), ('loss', '1e-06', 'TcpBbr'), ('loss', '1e-06', 'TcpQtSdr'), ('loss', '1e-06', 'TcpQtTor'), ('loss', '0.0001', 'TcpNewReno'), ('loss', '0.0001', 'TcpCubic'), ('loss', '0.0001', 'TcpBbr'), ('loss', '0.0001', 'TcpQtSdr'), ('loss', '0.0001', 'TcpQtTor'), ('loss', '0.01', 'TcpNewReno'), ('loss', '0.01', 'TcpCubic'), ('loss', '0.01', 'TcpBbr'), ('loss', '0.01', 'TcpQtSdr'), ('loss', '0.01', 'TcpQtTor')]",
+    "stochastic missing cells: [('stochastic', 'low', 'TcpNewReno'), ('stochastic', 'low', 'TcpCubic'), ('stochastic', 'low', 'TcpBbr'), ('stochastic', 'low', 'TcpQtSdr'), ('stochastic', 'low', 'TcpQtTor'), ('stochastic', 'moderate', 'TcpNewReno'), ('stochastic', 'moderate', 'TcpCubic'), ('stochastic', 'moderate', 'TcpBbr'), ('stochastic', 'moderate', 'TcpQtSdr'), ('stochastic', 'moderate', 'TcpQtTor'), ('stochastic', 'high', 'TcpNewReno'), ('stochastic', 'high', 'TcpCubic'), ('stochastic', 'high', 'TcpBbr'), ('stochastic', 'high', 'TcpQtSdr'), ('stochastic', 'high', 'TcpQtTor')]"
+  ],
+  "rejectedRuns": [],
+  "notes": [
+    "Measured CSV data only; NaNs omitted from distributions.",
+    "Boxplots use temporal 0.1-second samples, not independent replications.",
+    "Whiskers: 1.5 IQR; outliers shown. No smoothing or y-value clipping.",
+    "Power plots with peaks above 1.5 use a labelled linear-below-1/log-above-1 scale.",
+    "Local improved Qt models; figures do not assert reproduction of published values."
+  ],
+  "ns3Version": "3.47",
+  "windowRuleVariant": "baseline-recorded"
+}

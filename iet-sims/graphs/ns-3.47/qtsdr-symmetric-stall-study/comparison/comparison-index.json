@@ -1,0 +1,160 @@
+{
+  "settings": {
+    "scenario": "static",
+    "regime": "low",
+    "transport": "TcpQtSdr",
+    "recovery": "TcpClassicRecovery",
+    "bottleneckRate": "100Mbps",
+    "bottleneckDelay": "20ms",
+    "accessRate": "10Gbps",
+    "accessDelay": "0.01ms",
+    "flows": "5",
+    "mss": "1448",
+    "mtu": "1500",
+    "queuePackets": "1381",
+    "queueBytes": "0",
+    "accessQueuePackets": "10000",
+    "socketBuffer": "1073741824",
+    "initialCwnd": "10",
+    "delayedAckCount": "2",
+    "duration": "100",
+    "appStart": "1.0000000000000001e-05",
+    "warmup": "1.0000000000000001e-05",
+    "interval": "0.10000000000000001",
+    "samplingPhaseSeconds": "0.001",
+    "errorRate": "0",
+    "reverseErrors": "false",
+    "alpha": "1.2",
+    "epsilon": "1",
+    "muGain": "0.10000000000000001",
+    "muMin": "9.9999999999999995e-07",
+    "minControlScale": "25",
+    "controlFraction": "0.050000000000000003",
+    "ouStart": "0",
+    "ouInterval": "0.001",
+    "ouTau": "8",
+    "ouSigma": "0.14999999999999999",
+    "ouLower": "0.25",
+    "ouUpper": "1.75",
+    "bidirectionalOu": "false",
+    "seed": "12345",
+    "run": "1",
+    "ouStream": "42",
+    "tcpStream": "100",
+    "errorStream": "10000",
+    "delayTimes": "15,25,35",
+    "delayValues": "20ms,40ms,10ms",
+    "sack": "true",
+    "timestamps": "true",
+    "tracing": "false",
+    "pcap": "false",
+    "progress": "false",
+    "queue": "DropTailQueue<Packet>; no root queue disc",
+    "rttReferenceSeconds": "0.040039999999999999",
+    "baseBdpPackets": "345.64917127071823",
+    "ouInitialState": "log(C0)-sigmaLog^2*tau/4",
+    "ouUpdate": "Euler-Maruyama; first innovation at stoch_start",
+    "power": "receiverGoodputBps/currentForwardCapacityBps*rttReferenceSeconds/meanLastRttSeconds",
+    "rttTrace": "LastRTT; NaN until every flow has a positive RTT",
+    "goodput": "PacketSink unique in-order application payload bytes",
+    "fairness": "Jain over all configured flows, including zero-throughput flows",
+    "qtTorFixed": "N:5,M:10,eta:0.05,delta:0.05,wR:1,wu:1,wDeltaU:1",
+    "controllerVersion": "local modified ns-3.49 Qt models; not the original paper binaries",
+    "reference": "IET Section 6.1, Tables 2-4, Section 6.2 equations 50-54, Appendix C",
+    "extension": "false"
+  },
+  "metrics": [
+    {
+      "variant": "default",
+      "mean_goodput_mbps": 95.61017532101754,
+      "median_rtt_ms": 48.8,
+      "mean_rtt_ms": 48.8928,
+      "median_power": 0.7907808104918034,
+      "mean_power": 0.7844449323663102,
+      "jain_mean_goodput": 0.9620015668326111,
+      "median_inflight_packets": 408.0,
+      "max_inflight_1_to_60s": 534.0,
+      "samples_above500_1_to_60s": 2,
+      "received_payload_bytes": 1195127072
+    },
+    {
+      "variant": "symmetric",
+      "mean_goodput_mbps": 95.62766716276673,
+      "median_rtt_ms": 48.599999999999994,
+      "mean_rtt_ms": 48.6554,
+      "median_power": 0.7940350525102882,
+      "mean_power": 0.7885226867617857,
+      "jain_mean_goodput": 0.8378132136092156,
+      "median_inflight_packets": 406.0,
+      "max_inflight_1_to_60s": 593.0,
+      "samples_above500_1_to_60s": 6,
+      "received_payload_bytes": 1195345720
+    }
+  ],
+  "changes": {
+    "mean_goodput_mbps": {
+      "absolute": 0.01749184174919094,
+      "percent": 0.018294958345658207
+    },
+    "mean_rtt_ms": {
+      "absolute": -0.23740000000000094,
+      "percent": -0.48555206492571695
+    },
+    "median_rtt_ms": {
+      "absolute": -0.20000000000000284,
+      "percent": -0.40983606557377633
+    },
+    "mean_power": {
+      "absolute": 0.00407775439547553,
+      "percent": 0.5198267242513528
+    },
+    "median_power": {
+      "absolute": 0.0032542420184847876,
+      "percent": 0.411522633744856
+    },
+    "jain_mean_goodput": {
+      "absolute": -0.1241883532233955,
+      "percent": -12.909371201159837
+    }
+  },
+  "unmodifiedAlgorithmsExactDataMatch": {
+    "TcpQtTor": {
+      "aggregate.csv": true,
+      "flows.csv": true,
+      "summary.csv": true,
+      "totals.txt": true
+    },
+    "TcpNewReno": {
+      "aggregate.csv": true,
+      "flows.csv": true,
+      "summary.csv": true,
+      "totals.txt": true
+    },
+    "TcpCubic": {
+      "aggregate.csv": true,
+      "flows.csv": true,
+      "summary.csv": true,
+      "totals.txt": true
+    },
+    "TcpBbr": {
+      "aggregate.csv": true,
+      "flows.csv": true,
+      "summary.csv": true,
+      "totals.txt": true
+    }
+  },
+  "sourceRuns": {
+    "default": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+    "symmetric": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/symmetric/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4"
+  },
+  "aggregateSha256": {
+    "default": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+    "symmetric": "71e796f6fa74c799a0aa871ad20250e307781daa013a1472009b432a93fb6d5c"
+  },
+  "plotScriptSha256": "ce4c2a7df00220512d64687dc5151e7533142994080089ad16c2f2b3c845b555",
+  "notes": [
+    "Same driver, timestamp policy, original startup and sampling phase for both variants.",
+    "Separate library load verified per process; installed default library is unchanged.",
+    "Temporal distributions from one matched seed/run, not independent replications."
+  ]
+}

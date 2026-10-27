@@ -1,0 +1,91 @@
+{
+  "sourceRevision": "a41413ec34df314b92a99411aafe97faea255d5fdd28015b6c6d50987807c83e",
+  "runs": [
+    {
+      "label": "static-TcpBbr-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpBbr/seed12345-run1-9059f89c2b77b8c7",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "a41413ec34df314b92a99411aafe97faea255d5fdd28015b6c6d50987807c83e",
+      "elapsedSeconds": 40.587
+    },
+    {
+      "label": "static-TcpCubic-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpCubic/seed12345-run1-c8318b4f33af0bb7",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "a41413ec34df314b92a99411aafe97faea255d5fdd28015b6c6d50987807c83e",
+      "elapsedSeconds": 41.414
+    },
+    {
+      "label": "static-TcpNewReno-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpNewReno/seed12345-run1-dd9071a305215629",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "a41413ec34df314b92a99411aafe97faea255d5fdd28015b6c6d50987807c83e",
+      "elapsedSeconds": 41.738
+    },
+    {
+      "label": "static-TcpQtSdr-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtSdr/seed12345-run1-796142101c708ba1",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "a41413ec34df314b92a99411aafe97faea255d5fdd28015b6c6d50987807c83e",
+      "elapsedSeconds": 38.787
+    },
+    {
+      "label": "static-TcpQtTor-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded/static/TcpQtTor/seed12345-run1-5205e68f4428bbc7",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-study/baseline-recorded",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "a41413ec34df314b92a99411aafe97faea255d5fdd28015b6c6d50987807c83e",
+      "elapsedSeconds": 41.712
+    }
+  ],
+  "failures": []
+}

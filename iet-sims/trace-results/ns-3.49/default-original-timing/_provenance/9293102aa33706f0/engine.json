@@ -1,0 +1,7 @@
+{
+  "ns3Version": "3.49",
+  "rule": "default <=",
+  "installation": "/Users/dumisangwenya/Development/ns3-install/ns-3.49",
+  "modelOrigin": "ns-3.47 default, only model include directives adapted",
+  "library": "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/lib/libns3.49-internet.dylib"
+}

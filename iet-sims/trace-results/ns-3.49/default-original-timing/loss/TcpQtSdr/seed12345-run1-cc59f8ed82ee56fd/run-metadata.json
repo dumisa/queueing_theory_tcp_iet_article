@@ -1,0 +1,18 @@
+{
+  "label": "loss-TcpQtSdr-1e-6-100.0s-seed12345-run1",
+  "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpQtSdr/seed12345-run1-cc59f8ed82ee56fd",
+  "status": "completed",
+  "command": [
+    "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+    "--scenario=loss",
+    "--transport_prot=TcpQtSdr",
+    "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+    "--sim_duration=100.0",
+    "--rngSeed=12345",
+    "--rngRun=1",
+    "--tracing=0",
+    "--error_p=1e-6"
+  ],
+  "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+  "elapsedSeconds": 38.091
+}

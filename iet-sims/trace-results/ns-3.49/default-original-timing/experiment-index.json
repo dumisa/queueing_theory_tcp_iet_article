@@ -1,0 +1,901 @@
+{
+  "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+  "runs": [
+    {
+      "label": "buffer-TcpBbr-1381p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpBbr/seed12345-run1-2116b001621467d6",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=1381"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 39.981
+    },
+    {
+      "label": "buffer-TcpBbr-483p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpBbr/seed12345-run1-974ec8e71128a6d8",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=483"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 40.365
+    },
+    {
+      "label": "buffer-TcpBbr-690p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpBbr/seed12345-run1-b307aaaf99b6bd52",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=690"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 40.06
+    },
+    {
+      "label": "buffer-TcpCubic-1381p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpCubic/seed12345-run1-238fb8449cb82e7e",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=1381"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 39.1
+    },
+    {
+      "label": "buffer-TcpCubic-483p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpCubic/seed12345-run1-e0763b42925d4790",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=483"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 38.994
+    },
+    {
+      "label": "buffer-TcpCubic-690p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpCubic/seed12345-run1-a5d2fb41098252ea",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=690"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 39.384
+    },
+    {
+      "label": "buffer-TcpNewReno-1381p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpNewReno/seed12345-run1-49f254bba6a6d4f8",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=1381"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 42.809
+    },
+    {
+      "label": "buffer-TcpNewReno-483p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpNewReno/seed12345-run1-484e54f928c5b126",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=483"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 40.67
+    },
+    {
+      "label": "buffer-TcpNewReno-690p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpNewReno/seed12345-run1-25df7f9be0314070",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=690"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 41.247
+    },
+    {
+      "label": "buffer-TcpQtSdr-1381p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpQtSdr/seed12345-run1-a90a2e89e5c81e90",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=1381"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 41.606
+    },
+    {
+      "label": "buffer-TcpQtSdr-483p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpQtSdr/seed12345-run1-aa3fea1e2feaa32e",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=483"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 41.489
+    },
+    {
+      "label": "buffer-TcpQtSdr-690p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpQtSdr/seed12345-run1-98488d8c36756c58",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=690"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 41.541
+    },
+    {
+      "label": "buffer-TcpQtTor-1381p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpQtTor/seed12345-run1-f39a83838e865bce",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=1381"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 39.144
+    },
+    {
+      "label": "buffer-TcpQtTor-483p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpQtTor/seed12345-run1-8076cbbe19b67020",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=483"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 38.906
+    },
+    {
+      "label": "buffer-TcpQtTor-690p-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/buffer/TcpQtTor/seed12345-run1-9e88595c21c81aba",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=buffer",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--queuePackets=690"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 40.067
+    },
+    {
+      "label": "loss-TcpBbr-1e-2-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpBbr/seed12345-run1-23aa9c08350993a8",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-2"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 52.826
+    },
+    {
+      "label": "loss-TcpBbr-1e-4-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpBbr/seed12345-run1-7b39dd8a9838cb48",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-4"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 41.129
+    },
+    {
+      "label": "loss-TcpBbr-1e-6-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpBbr/seed12345-run1-ee9f7b6b0e91a307",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-6"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 40.14
+    },
+    {
+      "label": "loss-TcpCubic-1e-2-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpCubic/seed12345-run1-564a73e6d5ef8824",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-2"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 10.529
+    },
+    {
+      "label": "loss-TcpCubic-1e-4-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpCubic/seed12345-run1-38cddf90c0650ca4",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-4"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 39.152
+    },
+    {
+      "label": "loss-TcpCubic-1e-6-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpCubic/seed12345-run1-e11cff9579c413a3",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-6"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 39.595
+    },
+    {
+      "label": "loss-TcpNewReno-1e-2-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpNewReno/seed12345-run1-e2fb53bb70ff3862",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-2"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 8.059
+    },
+    {
+      "label": "loss-TcpNewReno-1e-4-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpNewReno/seed12345-run1-4d3ee60fde7b60b2",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-4"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 38.036
+    },
+    {
+      "label": "loss-TcpNewReno-1e-6-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpNewReno/seed12345-run1-2d4483019aa8d265",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-6"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 40.384
+    },
+    {
+      "label": "loss-TcpQtSdr-1e-2-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpQtSdr/seed12345-run1-7541c4d6ee43148a",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-2"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 43.993
+    },
+    {
+      "label": "loss-TcpQtSdr-1e-4-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpQtSdr/seed12345-run1-a955d8724f8b803a",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-4"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 38.275
+    },
+    {
+      "label": "loss-TcpQtSdr-1e-6-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpQtSdr/seed12345-run1-cc59f8ed82ee56fd",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-6"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 38.091
+    },
+    {
+      "label": "loss-TcpQtTor-1e-2-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpQtTor/seed12345-run1-30db0be23ce7b2f0",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-2"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 43.142
+    },
+    {
+      "label": "loss-TcpQtTor-1e-4-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpQtTor/seed12345-run1-7135beeb087f0630",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-4"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 39.232
+    },
+    {
+      "label": "loss-TcpQtTor-1e-6-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/loss/TcpQtTor/seed12345-run1-1deab3d0ad0447f",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=loss",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--error_p=1e-6"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 39.215
+    },
+    {
+      "label": "static-TcpBbr-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 39.809
+    },
+    {
+      "label": "static-TcpCubic-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 40.124
+    },
+    {
+      "label": "static-TcpNewReno-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 43.635
+    },
+    {
+      "label": "static-TcpQtSdr-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 41.067
+    },
+    {
+      "label": "static-TcpQtTor-reference-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/static/TcpQtTor/seed12345-run1-f3be366d00501eaa",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=static",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 39.001
+    },
+    {
+      "label": "stochastic-TcpBbr-high-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpBbr/seed12345-run1-d89a78d0c03be1d7",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=high"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 42.813
+    },
+    {
+      "label": "stochastic-TcpBbr-low-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpBbr/seed12345-run1-88a0d5eeec27dab5",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=low"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 47.268
+    },
+    {
+      "label": "stochastic-TcpBbr-moderate-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpBbr/seed12345-run1-e52945bfceb22d88",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpBbr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=moderate"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 45.761
+    },
+    {
+      "label": "stochastic-TcpCubic-high-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpCubic/seed12345-run1-d093ccd54d0352a3",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=high"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 40.497
+    },
+    {
+      "label": "stochastic-TcpCubic-low-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpCubic/seed12345-run1-5dca1aac81bc5e09",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=low"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 42.511
+    },
+    {
+      "label": "stochastic-TcpCubic-moderate-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpCubic/seed12345-run1-fe15266b3405bc68",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpCubic",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=moderate"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 40.867
+    },
+    {
+      "label": "stochastic-TcpNewReno-high-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpNewReno/seed12345-run1-2eb5eeac062d3fb1",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=high"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 40.779
+    },
+    {
+      "label": "stochastic-TcpNewReno-low-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpNewReno/seed12345-run1-f61d37739a9205af",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=low"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 43.794
+    },
+    {
+      "label": "stochastic-TcpNewReno-moderate-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpNewReno/seed12345-run1-c63c3003de1d82de",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpNewReno",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=moderate"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 41.678
+    },
+    {
+      "label": "stochastic-TcpQtSdr-high-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpQtSdr/seed12345-run1-5903adf9ced5a63d",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=high"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 36.875
+    },
+    {
+      "label": "stochastic-TcpQtSdr-low-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpQtSdr/seed12345-run1-11de25e5716271ab",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=low"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 41.701
+    },
+    {
+      "label": "stochastic-TcpQtSdr-moderate-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpQtSdr/seed12345-run1-a7e35df82db1e4f6",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpQtSdr",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=moderate"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 38.803
+    },
+    {
+      "label": "stochastic-TcpQtTor-high-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpQtTor/seed12345-run1-e8d4b80e722406ab",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=high"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 36.972
+    },
+    {
+      "label": "stochastic-TcpQtTor-low-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpQtTor/seed12345-run1-273be4c24962611",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=low"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 43.683
+    },
+    {
+      "label": "stochastic-TcpQtTor-moderate-100.0s-seed12345-run1",
+      "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing/stochastic/TcpQtTor/seed12345-run1-cb9a17b5e98d4958",
+      "status": "completed",
+      "command": [
+        "/Users/dumisangwenya/Development/ns3-install/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+        "--scenario=stochastic",
+        "--transport_prot=TcpQtTor",
+        "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.49/default-original-timing",
+        "--sim_duration=100.0",
+        "--rngSeed=12345",
+        "--rngRun=1",
+        "--tracing=0",
+        "--regime=moderate"
+      ],
+      "sourceRevision": "9293102aa33706f0d79b3a0d08826608849d8efbc9b66e3d33ead7b04412db12",
+      "elapsedSeconds": 41.052
+    }
+  ],
+  "failures": []
+}

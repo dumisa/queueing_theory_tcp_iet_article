@@ -1,0 +1,7 @@
+{
+  "version": "3.47",
+  "variant": "symmetric",
+  "installation": "/Users/dumisangwenya/Development/ns3-install/ns-3.47",
+  "loadedInternetLibrary": "/Users/dumisangwenya/Development/ns3-install/iet-sims/variants/ns-3.47/qtsdr-symmetric-stall/lib/libns3.47-internet.dylib",
+  "dyldLibraryPath": "/Users/dumisangwenya/Development/ns3-install/iet-sims/variants/ns-3.47/qtsdr-symmetric-stall/lib:/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/lib"
+}

@@ -1,0 +1,6 @@
+{
+  "ns3Version": "3.47",
+  "rule": "default <=",
+  "installation": "/Users/dumisangwenya/Development/ns3-install/ns-3.47",
+  "library": "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/lib/libns3.47-internet.dylib"
+}

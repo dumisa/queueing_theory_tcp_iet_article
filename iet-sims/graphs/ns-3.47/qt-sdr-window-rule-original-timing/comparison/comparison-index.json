@@ -1,0 +1,188 @@
+{
+  "settings": {
+    "scenario": "static",
+    "regime": "low",
+    "transport": "TcpQtSdr",
+    "recovery": "TcpClassicRecovery",
+    "bottleneckRate": "100Mbps",
+    "bottleneckDelay": "20ms",
+    "accessRate": "10Gbps",
+    "accessDelay": "0.01ms",
+    "flows": "5",
+    "mss": "1448",
+    "mtu": "1500",
+    "queuePackets": "1381",
+    "queueBytes": "0",
+    "accessQueuePackets": "10000",
+    "socketBuffer": "1073741824",
+    "initialCwnd": "10",
+    "delayedAckCount": "2",
+    "duration": "100",
+    "appStart": "1.0000000000000001e-05",
+    "warmup": "1.0000000000000001e-05",
+    "interval": "0.10000000000000001",
+    "errorRate": "0",
+    "reverseErrors": "false",
+    "alpha": "1.2",
+    "epsilon": "1",
+    "muGain": "0.10000000000000001",
+    "muMin": "9.9999999999999995e-07",
+    "minControlScale": "25",
+    "controlFraction": "0.050000000000000003",
+    "ouStart": "0",
+    "ouInterval": "0.001",
+    "ouTau": "8",
+    "ouSigma": "0.14999999999999999",
+    "ouLower": "0.25",
+    "ouUpper": "1.75",
+    "bidirectionalOu": "false",
+    "seed": "12345",
+    "run": "1",
+    "ouStream": "42",
+    "tcpStream": "100",
+    "errorStream": "10000",
+    "delayTimes": "15,25,35",
+    "delayValues": "20ms,40ms,10ms",
+    "sack": "true",
+    "timestamps": "true",
+    "tracing": "false",
+    "pcap": "false",
+    "progress": "false",
+    "queue": "DropTailQueue<Packet>; no root queue disc",
+    "rttReferenceSeconds": "0.040039999999999999",
+    "baseBdpPackets": "345.64917127071823",
+    "ouInitialState": "log(C0)-sigmaLog^2*tau/4",
+    "ouUpdate": "Euler-Maruyama; first innovation at stoch_start",
+    "power": "receiverGoodputBps/currentForwardCapacityBps*rttReferenceSeconds/meanLastRttSeconds",
+    "rttTrace": "LastRTT; NaN until every flow has a positive RTT",
+    "goodput": "PacketSink unique in-order application payload bytes",
+    "fairness": "Jain over all configured flows, including zero-throughput flows",
+    "qtTorFixed": "N:5,M:10,eta:0.05,delta:0.05,wR:1,wu:1,wDeltaU:1",
+    "samplingPhaseSeconds": "0.001",
+    "controllerVersion": "local modified ns-3.49 Qt models; not the original paper binaries",
+    "reference": "IET Section 6.1, Tables 2-4, Section 6.2 equations 50-54, Appendix C",
+    "extension": "false"
+  },
+  "metrics": [
+    {
+      "variant": "baseline-recorded",
+      "mean_goodput_mbps": 95.61017532101754,
+      "median_rtt_ms": 48.8,
+      "mean_rtt_ms": 48.8928,
+      "median_power": 0.7907808104918034,
+      "mean_power": 0.7844449323663102,
+      "jain_mean_goodput": 0.9620015668326111,
+      "median_inflight_packets": 408.0,
+      "max_inflight_1_to_60s": 534.0,
+      "samples_above500_1_to_60s": 2,
+      "received_payload_bytes": 1195127072
+    },
+    {
+      "variant": "baseline-equality",
+      "mean_goodput_mbps": 95.61017532101754,
+      "median_rtt_ms": 48.8,
+      "mean_rtt_ms": 48.8928,
+      "median_power": 0.7907808104918034,
+      "mean_power": 0.7844449323663102,
+      "jain_mean_goodput": 0.9620015668326111,
+      "median_inflight_packets": 408.0,
+      "max_inflight_1_to_60s": 534.0,
+      "samples_above500_1_to_60s": 2,
+      "received_payload_bytes": 1195127072
+    },
+    {
+      "variant": "proposed",
+      "mean_goodput_mbps": 95.39795641979565,
+      "median_rtt_ms": 48.599999999999994,
+      "mean_rtt_ms": 48.968,
+      "median_power": 0.7917312681967213,
+      "mean_power": 0.7813795773666652,
+      "jain_mean_goodput": 0.925883860639507,
+      "median_inflight_packets": 407.0,
+      "max_inflight_1_to_60s": 564.0,
+      "samples_above500_1_to_60s": 7,
+      "received_payload_bytes": 1192474336
+    }
+  ],
+  "proposedChangesAgainst": {
+    "baseline-recorded": {
+      "mean_goodput_mbps": {
+        "absolute": -0.21221890122188825,
+        "percent": -0.22196267343862633
+      },
+      "median_rtt_ms": {
+        "absolute": -0.20000000000000284,
+        "percent": -0.40983606557377633
+      },
+      "median_power": {
+        "absolute": 0.000950457704917973,
+        "percent": 0.12019230769230012
+      },
+      "jain_mean_goodput": {
+        "absolute": -0.03611770619310406,
+        "percent": -3.7544331982765433
+      }
+    },
+    "baseline-equality": {
+      "mean_goodput_mbps": {
+        "absolute": -0.21221890122188825,
+        "percent": -0.22196267343862633
+      },
+      "median_rtt_ms": {
+        "absolute": -0.20000000000000284,
+        "percent": -0.40983606557377633
+      },
+      "median_power": {
+        "absolute": 0.000950457704917973,
+        "percent": 0.12019230769230012
+      },
+      "jain_mean_goodput": {
+        "absolute": -0.03611770619310406,
+        "percent": -3.7544331982765433
+      }
+    }
+  },
+  "unmodifiedAlgorithmsExactDataMatch": {
+    "TcpQtTor": {
+      "aggregate.csv": true,
+      "flows.csv": true,
+      "summary.csv": true,
+      "totals.txt": true
+    },
+    "TcpNewReno": {
+      "aggregate.csv": true,
+      "flows.csv": true,
+      "summary.csv": true,
+      "totals.txt": true
+    },
+    "TcpCubic": {
+      "aggregate.csv": true,
+      "flows.csv": true,
+      "summary.csv": true,
+      "totals.txt": true
+    },
+    "TcpBbr": {
+      "aggregate.csv": true,
+      "flows.csv": true,
+      "summary.csv": true,
+      "totals.txt": true
+    }
+  },
+  "sourceRuns": {
+    "baseline-recorded": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-original-timing/baseline-recorded/static/TcpQtSdr/seed12345-run1-d70bbf7a56c683b8",
+    "baseline-equality": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-original-timing/baseline-equality/static/TcpQtSdr/seed12345-run1-d70bbf7a56c683b8",
+    "proposed": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qt-sdr-window-rule-original-timing/proposed/static/TcpQtSdr/seed12345-run1-d70bbf7a56c683b8"
+  },
+  "aggregateSha256": {
+    "baseline-recorded": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+    "baseline-equality": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+    "proposed": "10d9f783d3530a08a55017a0d49c91a989fc70d425f330cd326736603b5ea755"
+  },
+  "plotScriptSha256": "f4b4a707142fef9320ac30d2d69807750de32c4d1b7d41919bcc6f797980bc73",
+  "notes": [
+    "Same setup for every variant; appStart=warmup=0.00001 s; sampling starts at absolute 0.001 s, with a final 100 s sample.",
+    "Recorded baseline already used <=; equality baseline implements the older snippet literally.",
+    "Temporal distributions from one deterministic run; no statistical significance claim.",
+    "Only the proposed implementation remains installed in ns-3.47."
+  ]
+}

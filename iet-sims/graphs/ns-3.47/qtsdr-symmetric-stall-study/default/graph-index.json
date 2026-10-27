@@ -1,0 +1,154 @@
+{
+  "plotScriptSha256": "830530da9a1c496940033ab6e3df3ae8d1aa51e69dca1c086c4e15aa98ae9799",
+  "matplotlibVersion": "3.3.2",
+  "numpyVersion": "1.18.5",
+  "family": "f01f9fdc1fa74b22",
+  "settings": {
+    "bottleneckRate": "100Mbps",
+    "bottleneckDelay": "20ms",
+    "accessRate": "10Gbps",
+    "accessDelay": "0.01ms",
+    "flows": "5",
+    "mss": "1448",
+    "mtu": "1500",
+    "accessQueuePackets": "10000",
+    "socketBuffer": "1073741824",
+    "initialCwnd": "10",
+    "delayedAckCount": "2",
+    "duration": "100",
+    "appStart": "1.0000000000000001e-05",
+    "warmup": "1.0000000000000001e-05",
+    "interval": "0.10000000000000001",
+    "samplingPhaseSeconds": "0.001",
+    "alpha": "1.2",
+    "epsilon": "1",
+    "muGain": "0.10000000000000001",
+    "muMin": "9.9999999999999995e-07",
+    "minControlScale": "25",
+    "controlFraction": "0.050000000000000003",
+    "seed": "12345",
+    "run": "1",
+    "ouStream": "42",
+    "tcpStream": "100",
+    "errorStream": "10000",
+    "recovery": "TcpClassicRecovery",
+    "reverseErrors": "false",
+    "sack": "true",
+    "timestamps": "true",
+    "ouStart": "0",
+    "ouInterval": "0.001",
+    "ouLower": "0.25",
+    "ouUpper": "1.75",
+    "bidirectionalOu": "false",
+    "qtTorFixed": "N:5,M:10,eta:0.05,delta:0.05,wR:1,wu:1,wDeltaU:1",
+    "controllerVersion": "local modified ns-3.49 Qt models; not the original paper binaries"
+  },
+  "sourceRevision": "d5a0ad72450b99f96f637913d48f119a2ee74d24a273c14a1dfbfb537fb80cdd",
+  "figures": [
+    {
+      "png": "/Users/dumisangwenya/Development/ns3-install/iet-sims/graphs/ns-3.47/qtsdr-symmetric-stall-study/default/fig03_static_inflight.png",
+      "metric": "inflight_packets; first 60 seconds",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtTor/seed12345-run1-f3be366d00501eaa"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a": "41ecb226837ada0ed71193cd3522be3e24e55b3c09b5e5b8ada8f15be55305b6",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc": "f96c634be6725964418e4ee2633bf5b3c3000adabe1619da6d2728fe79c710c3",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtTor/seed12345-run1-f3be366d00501eaa": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Development/ns3-install/iet-sims/graphs/ns-3.47/qtsdr-symmetric-stall-study/default/fig04_static_rtt.png",
+      "metric": "mean_rtt_ms; temporal distribution of finite samples",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtTor/seed12345-run1-f3be366d00501eaa"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a": "41ecb226837ada0ed71193cd3522be3e24e55b3c09b5e5b8ada8f15be55305b6",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc": "f96c634be6725964418e4ee2633bf5b3c3000adabe1619da6d2728fe79c710c3",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtTor/seed12345-run1-f3be366d00501eaa": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Development/ns3-install/iet-sims/graphs/ns-3.47/qtsdr-symmetric-stall-study/default/fig05_static_power.png",
+      "metric": "power_norm; temporal distribution of finite samples",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtTor/seed12345-run1-f3be366d00501eaa"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a": "41ecb226837ada0ed71193cd3522be3e24e55b3c09b5e5b8ada8f15be55305b6",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc": "f96c634be6725964418e4ee2633bf5b3c3000adabe1619da6d2728fe79c710c3",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtTor/seed12345-run1-f3be366d00501eaa": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Development/ns3-install/iet-sims/graphs/ns-3.47/qtsdr-symmetric-stall-study/default/fig06_static_goodput.png",
+      "metric": "sum of per-flow mean receiver goodput",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtTor/seed12345-run1-f3be366d00501eaa"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a": "41ecb226837ada0ed71193cd3522be3e24e55b3c09b5e5b8ada8f15be55305b6",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc": "f96c634be6725964418e4ee2633bf5b3c3000adabe1619da6d2728fe79c710c3",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtTor/seed12345-run1-f3be366d00501eaa": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Development/ns3-install/iet-sims/graphs/ns-3.47/qtsdr-symmetric-stall-study/default/fig07_static_fairness.png",
+      "metric": "Jain of time-averaged per-flow receiver goodput",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtTor/seed12345-run1-f3be366d00501eaa"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a": "41ecb226837ada0ed71193cd3522be3e24e55b3c09b5e5b8ada8f15be55305b6",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc": "f96c634be6725964418e4ee2633bf5b3c3000adabe1619da6d2728fe79c710c3",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/qtsdr-symmetric-stall-study/default/static/TcpQtTor/seed12345-run1-f3be366d00501eaa": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165"
+      }
+    }
+  ],
+  "skippedComparisons": [
+    "buffer missing cells: [('buffer', '483', 'TcpNewReno'), ('buffer', '483', 'TcpCubic'), ('buffer', '483', 'TcpBbr'), ('buffer', '483', 'TcpQtSdr'), ('buffer', '483', 'TcpQtTor'), ('buffer', '690', 'TcpNewReno'), ('buffer', '690', 'TcpCubic'), ('buffer', '690', 'TcpBbr'), ('buffer', '690', 'TcpQtSdr'), ('buffer', '690', 'TcpQtTor'), ('buffer', '1381', 'TcpNewReno'), ('buffer', '1381', 'TcpCubic'), ('buffer', '1381', 'TcpBbr'), ('buffer', '1381', 'TcpQtSdr'), ('buffer', '1381', 'TcpQtTor')]",
+    "loss missing cells: [('loss', '1e-06', 'TcpNewReno'), ('loss', '1e-06', 'TcpCubic'), ('loss', '1e-06', 'TcpBbr'), ('loss', '1e-06', 'TcpQtSdr'), ('loss', '1e-06', 'TcpQtTor'), ('loss', '0.0001', 'TcpNewReno'), ('loss', '0.0001', 'TcpCubic'), ('loss', '0.0001', 'TcpBbr'), ('loss', '0.0001', 'TcpQtSdr'), ('loss', '0.0001', 'TcpQtTor'), ('loss', '0.01', 'TcpNewReno'), ('loss', '0.01', 'TcpCubic'), ('loss', '0.01', 'TcpBbr'), ('loss', '0.01', 'TcpQtSdr'), ('loss', '0.01', 'TcpQtTor')]",
+    "stochastic missing cells: [('stochastic', 'low', 'TcpNewReno'), ('stochastic', 'low', 'TcpCubic'), ('stochastic', 'low', 'TcpBbr'), ('stochastic', 'low', 'TcpQtSdr'), ('stochastic', 'low', 'TcpQtTor'), ('stochastic', 'moderate', 'TcpNewReno'), ('stochastic', 'moderate', 'TcpCubic'), ('stochastic', 'moderate', 'TcpBbr'), ('stochastic', 'moderate', 'TcpQtSdr'), ('stochastic', 'moderate', 'TcpQtTor'), ('stochastic', 'high', 'TcpNewReno'), ('stochastic', 'high', 'TcpCubic'), ('stochastic', 'high', 'TcpBbr'), ('stochastic', 'high', 'TcpQtSdr'), ('stochastic', 'high', 'TcpQtTor')]"
+  ],
+  "rejectedRuns": [],
+  "notes": [
+    "Measured CSV data only; NaNs omitted from distributions.",
+    "Boxplots use temporal 0.1-second samples, not independent replications.",
+    "Whiskers: 1.5 IQR; outliers shown. No smoothing or y-value clipping.",
+    "Power plots with peaks above 1.5 use a labelled linear-below-1/log-above-1 scale.",
+    "Local improved Qt models; figures do not assert reproduction of published values."
+  ],
+  "ns3Version": "3.47",
+  "variant": "default"
+}

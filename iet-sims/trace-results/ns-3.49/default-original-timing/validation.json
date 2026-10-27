@@ -1,0 +1,40 @@
+{
+  "version": "3.49",
+  "counts": {
+    "buffer": 15,
+    "loss": 15,
+    "static": 5,
+    "stochastic": 15
+  },
+  "runs": 50,
+  "aggregateSamplesPerRun": 1001,
+  "flowSamplesPerRun": 5005,
+  "capacitySha256ByRegime": {
+    "high": {
+      "TcpBbr": "1d5edca69259f4a76bd28c8f80662249de79f0432718b6fe6c4fb02ddbf30959",
+      "TcpCubic": "1d5edca69259f4a76bd28c8f80662249de79f0432718b6fe6c4fb02ddbf30959",
+      "TcpNewReno": "1d5edca69259f4a76bd28c8f80662249de79f0432718b6fe6c4fb02ddbf30959",
+      "TcpQtSdr": "1d5edca69259f4a76bd28c8f80662249de79f0432718b6fe6c4fb02ddbf30959",
+      "TcpQtTor": "1d5edca69259f4a76bd28c8f80662249de79f0432718b6fe6c4fb02ddbf30959"
+    },
+    "low": {
+      "TcpBbr": "2d58469cca1a44263adbf3e304b32b17fa9a92cb36e428011bfb47d6211fcabb",
+      "TcpCubic": "2d58469cca1a44263adbf3e304b32b17fa9a92cb36e428011bfb47d6211fcabb",
+      "TcpNewReno": "2d58469cca1a44263adbf3e304b32b17fa9a92cb36e428011bfb47d6211fcabb",
+      "TcpQtSdr": "2d58469cca1a44263adbf3e304b32b17fa9a92cb36e428011bfb47d6211fcabb",
+      "TcpQtTor": "2d58469cca1a44263adbf3e304b32b17fa9a92cb36e428011bfb47d6211fcabb"
+    },
+    "moderate": {
+      "TcpBbr": "26ded74baac7c412058ad6313bb49d7dc2898174c9a771c18d9670c5620021c2",
+      "TcpCubic": "26ded74baac7c412058ad6313bb49d7dc2898174c9a771c18d9670c5620021c2",
+      "TcpNewReno": "26ded74baac7c412058ad6313bb49d7dc2898174c9a771c18d9670c5620021c2",
+      "TcpQtSdr": "26ded74baac7c412058ad6313bb49d7dc2898174c9a771c18d9670c5620021c2",
+      "TcpQtTor": "26ded74baac7c412058ad6313bb49d7dc2898174c9a771c18d9670c5620021c2"
+    }
+  },
+  "matchedNs347Cases": 50,
+  "identicalAggregateCsvCases": 40,
+  "identicalTotalsCases": 40,
+  "stochasticCapacityPathsMatchingNs347": 15,
+  "engineUnchanged": true
+}

@@ -1,0 +1,3 @@
+10 successful 100-second simulations; 1001 aggregate and 5005 per-flow samples each.
+Original timing verified for all cases. Both library paths verified. Variant TCP suite passed.
+Four unchanged algorithms match exactly. Installed default source/library/driver hashes verified unchanged.

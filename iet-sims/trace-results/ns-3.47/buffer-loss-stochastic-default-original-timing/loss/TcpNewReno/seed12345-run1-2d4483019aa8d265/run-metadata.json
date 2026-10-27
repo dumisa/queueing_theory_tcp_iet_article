@@ -1,0 +1,18 @@
+{
+  "label": "loss-TcpNewReno-1e-6-100.0s-seed12345-run1",
+  "directory": "/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/buffer-loss-stochastic-default-original-timing/loss/TcpNewReno/seed12345-run1-2d4483019aa8d265",
+  "status": "completed",
+  "command": [
+    "/Users/dumisangwenya/Development/ns3-install/ns-3.47/build/examples/tcp/ns3.47-tcp_qt_sims",
+    "--scenario=loss",
+    "--transport_prot=TcpNewReno",
+    "--sim_name=/Users/dumisangwenya/Development/ns3-install/iet-sims/trace-results/ns-3.47/buffer-loss-stochastic-default-original-timing",
+    "--sim_duration=100.0",
+    "--rngSeed=12345",
+    "--rngRun=1",
+    "--tracing=0",
+    "--error_p=1e-6"
+  ],
+  "sourceRevision": "d5a0ad72450b99f96f637913d48f119a2ee74d24a273c14a1dfbfb537fb80cdd",
+  "elapsedSeconds": 42.344
+}

@@ -12,7 +12,8 @@
 **/*.log
 /tools/
 /.venv/
-/iet-sims/trace-results/
-/iet-sims/graphs/
 .env
 .env.*
+
+# Synchronisation locks are local only
+**/_locks/

@@ -1,0 +1,4 @@
+All 11 cases complete. Each has 1001 aggregate and 5005 per-flow samples.
+Sample phase verified exactly: 0.001 + 0.1*k s, plus final 100 s sample.
+Baseline agrees with all 600 original first-60-second in-flight samples.
+Unchanged algorithms match exactly. Production source restoration and rebuild verified.

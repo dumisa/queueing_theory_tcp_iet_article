@@ -1,0 +1,26 @@
+ns-3.47 static matrix: five algorithms, five flows each, duration 100 seconds, seed 12345, run 1.
+Each dataset has 1000 aggregate and 5000 per-flow samples, ending at 100 seconds.
+All five static PNGs generated from ns-3.47-only inputs.
+Sources and binary hashes retained in the version-specific result provenance.
+[
+  {
+    "algorithm": "TcpBbr",
+    "totals": "measurementSeconds=100\nreceivedPayloadBytes=1179241064\naggregateMeanGoodputMbps=94.33928512\njainMeanGoodput=0.99892949247839125\nrealisedCapacityMeanBps=100000000\nrealisedCapacityScv=0\n"
+  },
+  {
+    "algorithm": "TcpCubic",
+    "totals": "measurementSeconds=100\nreceivedPayloadBytes=1203345920\naggregateMeanGoodputMbps=96.267673599999995\njainMeanGoodput=0.98836010494115645\nrealisedCapacityMeanBps=100000000\nrealisedCapacityScv=0\n"
+  },
+  {
+    "algorithm": "TcpNewReno",
+    "totals": "measurementSeconds=100\nreceivedPayloadBytes=1202826088\naggregateMeanGoodputMbps=96.226087039999996\njainMeanGoodput=0.94619244911646894\nrealisedCapacityMeanBps=100000000\nrealisedCapacityScv=0\n"
+  },
+  {
+    "algorithm": "TcpQtSdr",
+    "totals": "measurementSeconds=100\nreceivedPayloadBytes=1196137776\naggregateMeanGoodputMbps=95.691022079999996\njainMeanGoodput=0.96031048104516725\nrealisedCapacityMeanBps=100000000\nrealisedCapacityScv=0\n"
+  },
+  {
+    "algorithm": "TcpQtTor",
+    "totals": "measurementSeconds=100\nreceivedPayloadBytes=1199420392\naggregateMeanGoodputMbps=95.953631360000003\njainMeanGoodput=0.97408078577037649\nrealisedCapacityMeanBps=100000000\nrealisedCapacityScv=0\n"
+  }
+]

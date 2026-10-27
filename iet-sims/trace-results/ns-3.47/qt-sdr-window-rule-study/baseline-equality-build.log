@@ -1,0 +1,5 @@
+[0/2] Re-checking globbed directories...
+[1/3] Building CXX object src/internet/CMakeFiles/internet.dir/model/tcp-qt-sdr.cc.o
+[2/3] Linking CXX shared library /Users/dumisangwenya/Development/ns3-install/ns-3.47/build/lib/libns3.47-internet.dylib
+Finished executing the following commands:
+/Users/dumisangwenya/Development/ns3-install/tools/bin/cmake --build /Users/dumisangwenya/Development/ns3-install/ns-3.47/cmake-cache -j 8 --target tcp_qt_sims
