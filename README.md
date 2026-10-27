@@ -14,8 +14,8 @@ With Homebrew installed, install the build and plotting dependencies, then clone
 
 ```sh
 brew install git cmake ninja eigen python
-git clone https://github.com/dumisa/IET.git
-cd IET
+git clone https://github.com/dumisa/queueing_theory_tcp_iet_article.git
+cd queueing_theory_tcp_iet_article
 python3 -m venv tools
 tools/bin/python3 -m pip install numpy matplotlib
 ```
