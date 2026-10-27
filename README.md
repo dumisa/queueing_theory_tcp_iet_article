@@ -37,6 +37,38 @@ cmake --version
 
 All paths below are based on `IET_ROOT`. Do not point one version's runner at the other version's results.
 
+## One-command reproduction for each version
+
+After completing dependency setup in Section 1, use one launcher per version:
+
+```sh
+bash "$IET_ROOT/reproduce_ns347.sh"
+bash "$IET_ROOT/reproduce_ns349.sh"
+```
+
+Each launcher configures and builds its own release installation with examples/tests enabled, runs the relevant TCP tests, runs all 50 cases (static, buffer, loss and stochastic), then creates ten PNG graphs. It stops on failure and records a pipeline log. Run either launcher independently, from any working directory. Neither launcher builds or executes the other simulator version.
+
+| Launcher | CSV results and metrics | PNG graphs |
+| --- | --- | --- |
+| `reproduce_ns347.sh` | `iet-sims/trace-results/ns-3.47/reproduction-all/` | `iet-sims/graphs/ns-3.47/reproduction-all/` |
+| `reproduce_ns349.sh` | `iet-sims/trace-results/ns-3.49/reproduction-all/` | `iet-sims/graphs/ns-3.49/reproduction-all/` |
+
+These full-matrix output folders differ from the archived reference folders and the separate ns-3.47 static/nonstatic examples below. Defaults remain 100 seconds, five homogeneous flows, seed 12345/run 1, original timing and the default QtSDR rule. The ns-3.47 launcher uses the existing version-specific provenance runner with all four scenarios explicitly selected.
+
+```sh
+# Use fewer build/simulation workers and a distinct output folder name.
+bash "$IET_ROOT/reproduce_ns347.sh" --build-jobs 2 --jobs 2 --run-id replication-01
+bash "$IET_ROOT/reproduce_ns349.sh" --build-jobs 2 --jobs 2 --run-id replication-01
+
+# Inspect commands without building, simulating, or creating output folders.
+bash "$IET_ROOT/reproduce_ns347.sh" --dry-run
+bash "$IET_ROOT/reproduce_ns349.sh" --help
+```
+
+`--run-id` applies beneath each version's own results/graphs directory. Reusing a run ID permits source-matched completed cases to be reused; changed or incomplete cases can be regenerated. Use a new ID for an independent output set. The two archived default folder names are rejected. Pipeline logs are under `iet-sims/trace-results/_launch-logs/ns-3.47/` or `ns-3.49/`.
+
+The launchers use `tools/bin/python3` when the setup environment exists, or Python from `PATH`; override with `IET_PYTHON` and `IET_PLOT_PYTHON`. They select only their own build library and discover Homebrew Eigen's include directory. Build prerequisites are installed in Section 1; the launchers do not install dependencies. The manual commands below remain available for running individual stages.
+
 ## 2. Build each simulator
 
 ### ns-3.47
