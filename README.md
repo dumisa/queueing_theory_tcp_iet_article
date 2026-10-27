@@ -13,6 +13,22 @@ The complete launcher verification on 27 October 2026 passed for both versions: 
 
 See the [combined validation report](iet-sims/workflow-verification-20261027.json), [upload checksums](iet-sims/workflow-verification-20261027-manifest.json) and [verification guide](iet-sims/WORKFLOW-VERIFICATION.md). These verification folders are separate from the original reference experiments and earlier controller studies.
 
+## ns-3.47 versus ns-3.49
+
+The default 50-case matrices use the same Qt rules, parameters, original timing and random seed/run. “Match” below means byte-identical `aggregate.csv` results; final `totals.txt` files agree in the same 40 cases.
+
+| Scenario | Matching cases | Differences |
+| --- | --- | --- |
+| Static | **5/5** | All five algorithms match. |
+| Buffer | **12/15** | BBR differs at 483 packets; Cubic differs at 483 and 690 packets. All QtSDR, QtTOR and NewReno cases match. |
+| Loss | **10/15** | All algorithms match at error probabilities 1e-6 and 1e-4; all five differ at 1e-2. |
+| Stochastic | **13/15** | Cubic differs under moderate and high volatility; the other cases match. All 15 capacity traces match across versions. |
+| **Total** | **40/50** | Differences are confined to ten nonstatic cases. |
+
+See the [50-case comparison metrics](iet-sims/graphs/ns-3.49/default-original-timing/ns347-vs-ns349.csv) for goodput, RTT, normalized Power, Jain fairness and exact-match flags. Delta columns mean **ns-3.49 minus ns-3.47**. The largest goodput difference is QtTOR at 1% packet loss: **+31.650 Mbps** in ns-3.49, with mean normalized Power **+0.30061**. QtSDR matches in 9/10 cases; at 1% loss its goodput changes by **+0.882 Mbps**, mean RTT by **+0.457 ms**, and mean Power by **−0.00689**.
+
+The fresh workflow-verification runs reproduced all 50 archived aggregate CSVs within each version ([combined validation](iet-sims/workflow-verification-20261027.json)), so this comparison also applies to the new runs. These are seed-12345/run-1 observations, not estimates across independent replications. The cause of the cross-version differences has not been isolated.
+
 ## 1. Get the repository and prepare macOS
 
 Install Xcode command-line tools if they are not already installed:
