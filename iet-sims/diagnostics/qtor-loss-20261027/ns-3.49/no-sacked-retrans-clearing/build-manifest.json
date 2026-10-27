@@ -1,0 +1,6 @@
+{
+  "sourceSha256": "9f833c88c2f47da9b966f5c7043174ffa0121c9653e0e31380b7f3c8fd7b0197",
+  "librarySha256": "d41711a8898808f4db993c3ddd0fdb917d5160cb56f2c41309d15956af62f4e6",
+  "compile": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/diagnostics/qtor-loss-20261027/ns-3.49/no-sacked-retrans-clearing/tcp-tx-buffer.o",
+  "note": "Isolated ns-3.49 TCP stack ablation; default Qt algorithms and libraries unchanged."
+}

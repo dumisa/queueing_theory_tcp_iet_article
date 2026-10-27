@@ -1,0 +1,23 @@
+{
+  "case": "ns347-backport-both-sack-fixes",
+  "version": "3.47",
+  "library": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/diagnostics/qtor-loss-20261027/ns-3.47/backport-both-sack-fixes/lib/libns3.47-internet.dylib",
+  "librarySha256": "733917800453e5dae81666802f4e5bce2ef340216cc0cac82baabd521400e68e",
+  "directory": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/diagnostics/qtor-loss-20261027/results/ns347-backport-both-sack-fixes/loss/TcpQtTor/seed12345-run1-30db0be23ce7b2f0",
+  "command": [
+    "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/diagnostics/qtor-loss-20261027/ns-3.47/driver/tcp_qt_diagnostic",
+    "--scenario=loss",
+    "--transport_prot=TcpQtTor",
+    "--error_p=0.01",
+    "--sim_duration=100",
+    "--rngSeed=12345",
+    "--rngRun=1",
+    "--sim_name=/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/diagnostics/qtor-loss-20261027/results/ns347-backport-both-sack-fixes"
+  ],
+  "measurementSeconds": "99.999989999999997",
+  "receivedPayloadBytes": "1142180952",
+  "aggregateMeanGoodputMbps": "91.37448529744853",
+  "jainMeanGoodput": "0.99811304641224907",
+  "realisedCapacityMeanBps": "100000000",
+  "realisedCapacityScv": "0"
+}

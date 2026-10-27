@@ -1,0 +1,23 @@
+{
+  "case": "ns349-qtsdr-control",
+  "version": "3.49",
+  "library": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/ns-3.49/build/lib/libns3.49-internet.dylib",
+  "librarySha256": "fd73049e121b163bad9f990267ec500b7483841f6fb74f289f3ad0025d7655bb",
+  "directory": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/diagnostics/qtor-loss-20261027/results/ns349-qtsdr-control/loss/TcpQtSdr/seed12345-run1-7541c4d6ee43148a",
+  "command": [
+    "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/diagnostics/qtor-loss-20261027/ns-3.49/driver/tcp_qt_diagnostic",
+    "--scenario=loss",
+    "--transport_prot=TcpQtSdr",
+    "--error_p=0.01",
+    "--sim_duration=100",
+    "--rngSeed=12345",
+    "--rngRun=1",
+    "--sim_name=/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/diagnostics/qtor-loss-20261027/results/ns349-qtsdr-control"
+  ],
+  "measurementSeconds": "99.999989999999997",
+  "receivedPayloadBytes": "1181766376",
+  "aggregateMeanGoodputMbps": "94.541319534131958",
+  "jainMeanGoodput": "0.99707608370909417",
+  "realisedCapacityMeanBps": "100000000",
+  "realisedCapacityScv": "0"
+}

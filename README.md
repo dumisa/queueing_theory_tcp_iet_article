@@ -37,7 +37,22 @@ Each graph compares all 50 cases and highlights the ten differing cases with lab
 
 See [graph definitions and regeneration instructions](iet-sims/graphs/ns-3.47-vs-ns-3.49/workflow-verification-20261027/README.md), [plotted metrics](iet-sims/graphs/ns-3.47-vs-ns-3.49/workflow-verification-20261027/comparison-metrics.csv) and the [plotting script](iet-sims/plot_ns_versions.py).
 
-The fresh workflow-verification runs reproduced all 50 archived aggregate CSVs within each version ([combined validation](iet-sims/workflow-verification-20261027.json)), so this comparison also applies to the new runs. These are seed-12345/run-1 observations, not estimates across independent replications. The cause of the cross-version differences has not been isolated.
+The fresh workflow-verification runs reproduced all 50 archived aggregate CSVs within each version ([combined validation](iet-sims/workflow-verification-20261027.json)), so this comparison also applies to the new runs. These are seed-12345/run-1 observations, not estimates across independent replications. The QtTOR 1% loss difference has been isolated to TCP transmit-buffer SACK handling (see the diagnostic explanation below). Causes of the other differing cases have not been isolated.
+
+### Why QtTOR differs at 1% loss
+
+Controlled diagnostics isolate the QtTOR difference to two TCP transmit-buffer SACK changes in ns-3.49. The dominant change detects a retransmission that is lost again and permits another retry before the retransmission timeout; the second clears retransmission accounting when a retransmitted segment is SACKed. All tests retain Classic Recovery and unchanged Qt controller algorithms.
+
+| Controlled QtTOR case | Goodput (Mbps) | Timeout-loss entries across five flows |
+| --- | ---: | ---: |
+| ns-3.47 default | 59.725 | 49 |
+| ns-3.49 default | 91.374 | 0 |
+| ns-3.49, both SACK changes disabled in an isolated library | 59.725 | 49 |
+| ns-3.47, both changes backported in an isolated library | 91.374 | 0 |
+
+Each counterfactual reproduces the opposite default engine's aggregate, per-flow and recovery traces byte for byte. Disabling retransmission-loss detection alone lowers ns-3.49 goodput to 60.028 Mbps. Packet traces confirm a twice-lost segment is retried about 0.998 seconds earlier in ns-3.49, avoiding a timeout/window reset. This establishes the cause for the tested seed/run; it does not establish average effects across seeds or attribute all other algorithm differences to the same mechanism.
+
+The [separate diagnostic folder](iet-sims/diagnostics/qtor-loss-20261027/) includes [full findings](iet-sims/diagnostics/qtor-loss-20261027/FINDINGS.md), [metrics](iet-sims/diagnostics/qtor-loss-20261027/diagnostic-summary.csv), [validation](iet-sims/diagnostics/qtor-loss-20261027/validation.json), [stack-ablation graph](iet-sims/diagnostics/qtor-loss-20261027/stack-ablation-goodput-timeouts.png) and [packet-event timeline](iet-sims/diagnostics/qtor-loss-20261027/first-lost-retransmission-timeline.png). [Before](iet-sims/diagnostics/qtor-loss-20261027/default-hashes-before.json) and [after](iet-sims/diagnostics/qtor-loss-20261027/default-hashes-after.json) hashes verify the relevant default sources and engines were unchanged. Isolated stack variants, passive driver sources and rebuild scripts are confined to the diagnostic folder; default algorithms and existing reference/workflow results remain unchanged.
 
 ## 1. Get the repository and prepare macOS
 

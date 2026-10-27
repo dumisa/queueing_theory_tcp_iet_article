@@ -1,0 +1,5 @@
+{
+  "sourceSha256": "69b99d18265c7facdf8488dcd05ced609570e7433f2647495ad2b65c0d50e960",
+  "librarySha256": "733917800453e5dae81666802f4e5bce2ef340216cc0cac82baabd521400e68e",
+  "note": "Only ns-3.49 SACK Update() fixes backported to an isolated ns-3.47 library; helper inlined to preserve the installed header and ABI."
+}
