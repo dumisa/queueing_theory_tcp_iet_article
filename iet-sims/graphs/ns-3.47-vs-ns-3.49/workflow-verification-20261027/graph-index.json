@@ -1,0 +1,37 @@
+{
+  "metricsSource": "iet-sims/graphs/ns-3.49/default-original-timing/ns347-vs-ns349.csv",
+  "metricsSha256": "46ea8171789f287407dffd892a43bc22a8261543ac5b35e2cdafc86e9a4b4b7c",
+  "plotScriptSha256": "28b19dcfadd36a301c1923f878970e3cdc70c091defcb79ab700bed16526aae1",
+  "matplotlibVersion": "3.3.2",
+  "numpyVersion": "1.18.5",
+  "cases": 50,
+  "identicalAggregateCases": 40,
+  "differingAggregateCases": 10,
+  "deltaDefinition": "ns-3.49 minus ns-3.47",
+  "figures": [
+    {
+      "file": "ns347-vs-ns349-goodput.png",
+      "metric": "mean_goodput_mbps",
+      "sha256": "47ef2bba6f3a1005e8bcb58047e0f58a7955e743e86ec8610f93884120ebca2d",
+      "units": "Mbps"
+    },
+    {
+      "file": "ns347-vs-ns349-rtt.png",
+      "metric": "mean_rtt_ms",
+      "sha256": "77f51d73c896e8d9f0212b32b05d8e31a6be5605ca056a166aa7e747abc0a3d9",
+      "units": "ms"
+    },
+    {
+      "file": "ns347-vs-ns349-power.png",
+      "metric": "mean_power",
+      "sha256": "f60ed092538173e2594b47e67cc09916178942ee750b9c2e88a6c3e614634801",
+      "units": "dimensionless"
+    },
+    {
+      "file": "ns347-vs-ns349-fairness.png",
+      "metric": "jain_mean_goodput",
+      "sha256": "a20ff655bf8fd61afbf913637c989b571afa9666565a507cad02acb9a2c56cbf",
+      "units": "dimensionless"
+    }
+  ]
+}

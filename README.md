@@ -27,6 +27,16 @@ The default 50-case matrices use the same Qt rules, parameters, original timing 
 
 See the [50-case comparison metrics](iet-sims/graphs/ns-3.49/default-original-timing/ns347-vs-ns349.csv) for goodput, RTT, normalized Power, Jain fairness and exact-match flags. Delta columns mean **ns-3.49 minus ns-3.47**. The largest goodput difference is QtTOR at 1% packet loss: **+31.650 Mbps** in ns-3.49, with mean normalized Power **+0.30061**. QtSDR matches in 9/10 cases; at 1% loss its goodput changes by **+0.882 Mbps**, mean RTT by **+0.457 ms**, and mean Power by **−0.00689**.
 
+### Comparison graphs
+
+Each graph compares all 50 cases and highlights the ten differing cases with labelled metric deltas (**ns-3.49 minus ns-3.47**).
+
+| Goodput | RTT | Power | Fairness |
+| --- | --- | --- | --- |
+| [Goodput comparison](iet-sims/graphs/ns-3.47-vs-ns-3.49/workflow-verification-20261027/ns347-vs-ns349-goodput.png) | [RTT comparison](iet-sims/graphs/ns-3.47-vs-ns-3.49/workflow-verification-20261027/ns347-vs-ns349-rtt.png) | [Power comparison](iet-sims/graphs/ns-3.47-vs-ns-3.49/workflow-verification-20261027/ns347-vs-ns349-power.png) | [Fairness comparison](iet-sims/graphs/ns-3.47-vs-ns-3.49/workflow-verification-20261027/ns347-vs-ns349-fairness.png) |
+
+See [graph definitions and regeneration instructions](iet-sims/graphs/ns-3.47-vs-ns-3.49/workflow-verification-20261027/README.md), [plotted metrics](iet-sims/graphs/ns-3.47-vs-ns-3.49/workflow-verification-20261027/comparison-metrics.csv) and the [plotting script](iet-sims/plot_ns_versions.py).
+
 The fresh workflow-verification runs reproduced all 50 archived aggregate CSVs within each version ([combined validation](iet-sims/workflow-verification-20261027.json)), so this comparison also applies to the new runs. These are seed-12345/run-1 observations, not estimates across independent replications. The cause of the cross-version differences has not been isolated.
 
 ## 1. Get the repository and prepare macOS
