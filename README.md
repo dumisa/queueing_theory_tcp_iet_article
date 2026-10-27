@@ -2,6 +2,17 @@
 
 This repository contains two complete ns-3 source trees with QtSDR, QtTOR and the `tcp_qt_sims.cc` experiment driver, plus simulation results, metrics and PNG graphs. Build and run each simulator version separately. The instructions below target macOS; the version-specific provenance runners currently refer to macOS `.dylib` libraries.
 
+## Workflow-verification results
+
+The complete launcher verification on 27 October 2026 passed for both versions: **50 fresh simulation cases and ten PNG graphs per version**. Each version's aggregate CSVs matched its own archived reference results byte for byte.
+
+| Simulator | Results and metrics | PNG graphs | Validation report | Build, test and run log |
+| --- | --- | --- | --- | --- |
+| ns-3.47 | [Results](iet-sims/trace-results/ns-3.47/workflow-verification-20261027/) | [Graphs](iet-sims/graphs/ns-3.47/workflow-verification-20261027/) | [Validation JSON](iet-sims/trace-results/ns-3.47/workflow-verification-20261027/workflow-validation.json) | [Launcher log](iet-sims/trace-results/ns-3.47/workflow-verification-20261027/_workflow-logs/complete-launcher.log) |
+| ns-3.49 | [Results](iet-sims/trace-results/ns-3.49/workflow-verification-20261027/) | [Graphs](iet-sims/graphs/ns-3.49/workflow-verification-20261027/) | [Validation JSON](iet-sims/trace-results/ns-3.49/workflow-verification-20261027/workflow-validation.json) | [Launcher log](iet-sims/trace-results/ns-3.49/workflow-verification-20261027/_workflow-logs/complete-launcher.log) |
+
+See the [combined validation report](iet-sims/workflow-verification-20261027.json), [upload checksums](iet-sims/workflow-verification-20261027-manifest.json) and [verification guide](iet-sims/WORKFLOW-VERIFICATION.md). These verification folders are separate from the original reference experiments and earlier controller studies.
+
 ## 1. Get the repository and prepare macOS
 
 Install Xcode command-line tools if they are not already installed:
