@@ -1,0 +1,14 @@
+{
+  "ns-3.47/VERSION": "66ab92a5faf390e91c78a082eb63ca74980e366ac22d8aad4dc27c1ec493e4ba",
+  "ns-3.47/examples/tcp/tcp_qt_sims.cc": "1a6f0a935a53202b0cdc3b3c00d72be76c2e548e7fbbc1827b0a623a929c3ea5",
+  "ns-3.47/src/internet/model/tcp-qt-sdr.cc": "e06f411ab644ea10746ada0272ad6a3a48e7985968669f6b0426a9c0a37e3283",
+  "ns-3.47/src/internet/model/tcp-qt-sdr.h": "8c288e799e6874128d18a9cfe0bd9afd93dc69fede8f29f9ee855d2ae9ebb66d",
+  "ns-3.47/src/internet/model/tcp-qt-tor.cc": "886189b4b92817fdb61ca8f90f748c29d0ded051a2977a7ebce7a983ba51d956",
+  "ns-3.47/src/internet/model/tcp-qt-tor.h": "ede95c932f2c577745f23bfb7bf098576eada6cf35a8bc0e1852a66ca25121af",
+  "ns-3.49/VERSION": "00e4783d82ecbdcd3a27055f54baae548b7571736bea43fc41d728873df0065c",
+  "ns-3.49/examples/tcp/tcp_qt_sims.cc": "1a6f0a935a53202b0cdc3b3c00d72be76c2e548e7fbbc1827b0a623a929c3ea5",
+  "ns-3.49/src/internet/model/tcp-qt-sdr.cc": "11dff42a8d32eeaca3cc0e8464f1dc72b89be0b782b7abfbab5afea7b6b1ed1c",
+  "ns-3.49/src/internet/model/tcp-qt-sdr.h": "8c288e799e6874128d18a9cfe0bd9afd93dc69fede8f29f9ee855d2ae9ebb66d",
+  "ns-3.49/src/internet/model/tcp-qt-tor.cc": "26e60baf622792fa2d780f035f8a6bc43cc472b8e131b382dc4a4d354650e36b",
+  "ns-3.49/src/internet/model/tcp-qt-tor.h": "ede95c932f2c577745f23bfb7bf098576eada6cf35a8bc0e1852a66ca25121af"
+}

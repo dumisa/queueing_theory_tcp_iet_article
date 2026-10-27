@@ -1,0 +1,13 @@
+Active ns-3.47 QtSDR default: original <= excitation rule.
+When the computed window equals the current window and RTT <= target RTT,
+increase the computed window by one packet. No additional above-target decrement.
+
+Active source: ../src/internet/model/tcp-qt-sdr.cc (relative to the ns-3.47 root).
+Saved default source: tcp-qt-sdr.default-original-le.cc
+Saved modified source: tcp-qt-sdr.proposed.cc
+The saved baseline-recorded source has equivalent behaviour to the active rule;
+its redundant nested condition and unreachable else were simplified.
+
+Full build, TCP test suite, and one-second five-flow QtSDR smoke run passed.
+Comparison results and source snapshots were left unchanged in iet-sims.
+Study launchers now restore and rebuild the controller active before each study.

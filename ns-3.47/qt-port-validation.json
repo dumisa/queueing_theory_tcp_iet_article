@@ -1,0 +1,18 @@
+{
+  "version": "3.47",
+  "sourceFolder": "/Users/dumisangwenya/Development/ns3-install/ns-3.49",
+  "sha256": {
+    "src/internet/model/tcp-qt-sdr.cc": "e85f7d0820dcc5d1755be8930186e33c4171b1e87896951a6f86d8219748e569",
+    "src/internet/model/tcp-qt-sdr.h": "8c288e799e6874128d18a9cfe0bd9afd93dc69fede8f29f9ee855d2ae9ebb66d",
+    "src/internet/model/tcp-qt-tor.cc": "886189b4b92817fdb61ca8f90f748c29d0ded051a2977a7ebce7a983ba51d956",
+    "src/internet/model/tcp-qt-tor.h": "ede95c932f2c577745f23bfb7bf098576eada6cf35a8bc0e1852a66ca25121af",
+    "examples/tcp/tcp_qt_sims.cc": "2ca1fcc2e087eb210073efd187dd946af9d135d88121d354ad2a18d9e53a3ba0"
+  },
+  "checks": [
+    "full build passed",
+    "TcpQtSdr 1-second five-flow run passed",
+    "TcpQtTor 1-second five-flow run passed",
+    "tcp test suite passed"
+  ],
+  "outputDefault": "Driver retains copied iet-sims/trace-results default; use --sim_name to separate version outputs."
+}

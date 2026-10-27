@@ -1,0 +1,11 @@
+Restoration validation, 27 October 2026
+- CMake configured with examples/tests enabled; full build passed.
+- tcp_qt_sims restored as the Qt example target.
+- Build launcher, shell syntax, and simulation/plot help passed.
+- Five-algorithm static smoke matrix at 1 second passed; matching run reuse passed.
+- Original CSV plotter produced all five static PNGs from the smoke matrix
+  using --allow-partial to skip the other scenario groups.
+- Default historical plot verification reported missing matched static cells
+  for TcpCubic and TcpBbr; a new matched matrix is needed before those default
+  historical graphs can be regenerated. No research datasets were overwritten.
+- Alternative example workflow archived; its traces and graphs preserved.

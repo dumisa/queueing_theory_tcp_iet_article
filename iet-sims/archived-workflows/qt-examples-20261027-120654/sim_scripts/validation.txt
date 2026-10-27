@@ -1,0 +1,12 @@
+Validation: 27 October 2026
+Full ns-3 build: passed.
+All shell syntax and launcher help checks: passed.
+50 matrix configurations, duration 6 s: passed.
+All 50 matching cached runs reused with trace hash verification.
+Step-delay launcher, duration 6 s, path containing spaces: passed.
+PNG adapter: 10 matrix comparison plots generated.
+Standalone plot launcher: passed.
+Invalid jobs=0: nonzero exit preserved.
+Every matrix run recorded transmitted packets.
+Test outputs retained under /tmp/iet-launchers-check and /tmp/iet launcher spaces.
+These are smoke tests, not full 100-second research experiments.

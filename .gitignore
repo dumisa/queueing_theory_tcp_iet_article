@@ -1,0 +1,18 @@
+# Generated simulator outputs and local tooling
+**/build/
+**/cmake-cache/
+**/.ccache/
+**/.lock-ns3*
+**/testpy-output/
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+**/.cache/
+**/.matplotlib-cache/
+**/*.log
+/tools/
+/.venv/
+/iet-sims/trace-results/
+/iet-sims/graphs/
+.env
+.env.*
