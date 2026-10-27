@@ -1,0 +1,42 @@
+{
+  "ns3Version": "3.49",
+  "result": "PASS",
+  "cases": 50,
+  "caseCounts": {
+    "buffer": 15,
+    "loss": 15,
+    "static": 5,
+    "stochastic": 15
+  },
+  "allRunsFresh": true,
+  "aggregateRowsPerCase": 1001,
+  "flowRowsPerCase": 5005,
+  "graphs": 10,
+  "aggregateCsvIdenticalToArchived": 50,
+  "results": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027",
+  "graphDirectory": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/graphs/ns-3.49/workflow-verification-20261027",
+  "engineHashes": {
+    "VERSION": "00e4783d82ecbdcd3a27055f54baae548b7571736bea43fc41d728873df0065c",
+    "examples/tcp/tcp_qt_sims.cc": "4f4186941710efd09f8851087866fc3ef7f209dc6a9101c306569efee73bb6b5",
+    "src/internet/CMakeLists.txt": "63534508fa8031ed23f7bdb58311497648756fdc3a72630bb7ddd4f0254905c6",
+    "examples/tcp/CMakeLists.txt": "8892970be529a8bf0b50a91adbb7d515df61a3b167ebfba9c4e10f3b70bacab9",
+    "src/internet/model/tcp-qt-sdr.cc": "11dff42a8d32eeaca3cc0e8464f1dc72b89be0b782b7abfbab5afea7b6b1ed1c",
+    "src/internet/model/tcp-qt-sdr.h": "8c288e799e6874128d18a9cfe0bd9afd93dc69fede8f29f9ee855d2ae9ebb66d",
+    "src/internet/model/tcp-qt-tor.cc": "26e60baf622792fa2d780f035f8a6bc43cc472b8e131b382dc4a4d354650e36b",
+    "src/internet/model/tcp-qt-tor.h": "ede95c932f2c577745f23bfb7bf098576eada6cf35a8bc0e1852a66ca25121af",
+    "build/examples/tcp/ns3.49-tcp_qt_sims": "10d1f6f749f230157c57368f1a553313e0bc059b51edbe63bace2665843464d9",
+    "build/lib/libns3.49-internet.dylib": "fd73049e121b163bad9f990267ec500b7483841f6fb74f289f3ad0025d7655bb"
+  },
+  "pngSha256": {
+    "fig03_static_inflight.png": "46089755dfe65bf0cb7e0159cb472c9c8d2b82f1ca9ab0ab9dcbb09857165ec0",
+    "fig04_static_rtt.png": "3a7d91c573ad032952828aa384801c6c842cd3bd7f8b1a213cdbf51883a6ffe2",
+    "fig05_static_power.png": "df3a3acb8e6fbbb3e05c0f3e6eb227731cee5ab29f75a432afad8b5fc677f735",
+    "fig06_static_goodput.png": "12f0a8545271b4d51e626832582dd3d02484653565e66f363da8151be442d479",
+    "fig07_static_fairness.png": "629233ff8a80976ee4e6a930551b685703e8bde996e9beed9b1729ecf36622b5",
+    "fig08_buffer_power.png": "895ea1fd6dfbd027166ae0c0b4db72dacd584e24dafc207c6b05b82f1862a7da",
+    "fig09_loss_power.png": "c31ff706065d40c7c7a924c7eca741ff9cfe0fb0ee754e024be58378a3b74b50",
+    "fig10_stochastic_power.png": "5ec49654ee8807cf3452743f04278d3be7dda11e04580760177b0b6582cfd803",
+    "fig11_stochastic_rtt.png": "49ad27f0a2b2a99ea547ad29f405f47f4d329243e53b049c8081766616e26147",
+    "supplement_ou_capacity.png": "392eb1d1d69fbc87dd710ccbce57113389cbf18608cb706b298e4362870969fb"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "label": "buffer-TcpQtTor-1381p-100.0s-seed12345-run1",
+  "directory": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtTor/seed12345-run1-f39a83838e865bce",
+  "status": "completed",
+  "command": [
+    "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/ns-3.49/build/examples/tcp/ns3.49-tcp_qt_sims",
+    "--scenario=buffer",
+    "--transport_prot=TcpQtTor",
+    "--sim_name=/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027",
+    "--sim_duration=100.0",
+    "--rngSeed=12345",
+    "--rngRun=1",
+    "--tracing=0",
+    "--queuePackets=1381"
+  ],
+  "sourceRevision": "4732ed98fa3170b44ad2b3aebc9cd73e851e0051363f13ee70dd5e64a6f726ef",
+  "elapsedSeconds": 61.801
+}

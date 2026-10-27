@@ -20,3 +20,7 @@ The ns-3.47 folders also retain the earlier `static/` runs, `qt-sdr-window-rule-
 CSV traces, computed metrics, resolved configurations, run logs, validation records, source provenance and PNG graphs are retained. Temporary locks and compiled provenance binaries are omitted; their original hash records remain for reference. Historical provenance files and graph indexes retain original absolute paths from the execution machine. Use the corresponding version/study folders in this repository to locate those files.
 
 `results-manifest.json` lists every imported data/graph file, its byte count and SHA-256 checksum, plus excluded local files. The root `source-manifest.json` records the original source-only import and does not cover this later results commit. Regenerating graphs requires Python with NumPy and Matplotlib; see the root README and plotting script help.
+
+## Complete launcher verification
+
+The new `workflow-verification-20261027/` folders contain 50 fresh runs and ten graphs for each simulator version, separate from the original reference folders. See [WORKFLOW-VERIFICATION.md](WORKFLOW-VERIFICATION.md) for links, validation reports and execution logs.

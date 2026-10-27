@@ -1,0 +1,338 @@
+{
+  "plotScriptSha256": "830530da9a1c496940033ab6e3df3ae8d1aa51e69dca1c086c4e15aa98ae9799",
+  "matplotlibVersion": "3.3.2",
+  "numpyVersion": "1.18.5",
+  "family": "a204f5ad5e1de6ce",
+  "settings": {
+    "bottleneckRate": "100Mbps",
+    "bottleneckDelay": "20ms",
+    "accessRate": "10Gbps",
+    "accessDelay": "0.01ms",
+    "flows": "5",
+    "mss": "1448",
+    "mtu": "1500",
+    "accessQueuePackets": "10000",
+    "socketBuffer": "1073741824",
+    "initialCwnd": "10",
+    "delayedAckCount": "2",
+    "duration": "100",
+    "appStart": "1.0000000000000001e-05",
+    "warmup": "1.0000000000000001e-05",
+    "interval": "0.10000000000000001",
+    "samplingPhaseSeconds": "0.001",
+    "alpha": "1.2",
+    "epsilon": "1",
+    "muGain": "0.10000000000000001",
+    "muMin": "9.9999999999999995e-07",
+    "minControlScale": "25",
+    "controlFraction": "0.050000000000000003",
+    "seed": "12345",
+    "run": "1",
+    "ouStream": "42",
+    "tcpStream": "100",
+    "errorStream": "10000",
+    "recovery": "TcpClassicRecovery",
+    "reverseErrors": "false",
+    "sack": "true",
+    "timestamps": "true",
+    "ouStart": "0",
+    "ouInterval": "0.001",
+    "ouLower": "0.25",
+    "ouUpper": "1.75",
+    "bidirectionalOu": "false",
+    "qtTorFixed": "N:5,M:10,eta:0.05,delta:0.05,wR:1,wu:1,wDeltaU:1",
+    "controllerVersion": "local modified ns-3.49 Qt models; not the original paper binaries"
+  },
+  "sourceRevision": "4732ed98fa3170b44ad2b3aebc9cd73e851e0051363f13ee70dd5e64a6f726ef",
+  "figures": [
+    {
+      "png": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/graphs/ns-3.49/workflow-verification-20261027/fig03_static_inflight.png",
+      "metric": "inflight_packets; first 60 seconds",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtTor/seed12345-run1-f3be366d00501eaa"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a": "41ecb226837ada0ed71193cd3522be3e24e55b3c09b5e5b8ada8f15be55305b6",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc": "f96c634be6725964418e4ee2633bf5b3c3000adabe1619da6d2728fe79c710c3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtTor/seed12345-run1-f3be366d00501eaa": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/graphs/ns-3.49/workflow-verification-20261027/fig04_static_rtt.png",
+      "metric": "mean_rtt_ms; temporal distribution of finite samples",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtTor/seed12345-run1-f3be366d00501eaa"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a": "41ecb226837ada0ed71193cd3522be3e24e55b3c09b5e5b8ada8f15be55305b6",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc": "f96c634be6725964418e4ee2633bf5b3c3000adabe1619da6d2728fe79c710c3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtTor/seed12345-run1-f3be366d00501eaa": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/graphs/ns-3.49/workflow-verification-20261027/fig05_static_power.png",
+      "metric": "power_norm; temporal distribution of finite samples",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtTor/seed12345-run1-f3be366d00501eaa"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a": "41ecb226837ada0ed71193cd3522be3e24e55b3c09b5e5b8ada8f15be55305b6",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc": "f96c634be6725964418e4ee2633bf5b3c3000adabe1619da6d2728fe79c710c3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtTor/seed12345-run1-f3be366d00501eaa": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/graphs/ns-3.49/workflow-verification-20261027/fig06_static_goodput.png",
+      "metric": "sum of per-flow mean receiver goodput",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtTor/seed12345-run1-f3be366d00501eaa"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a": "41ecb226837ada0ed71193cd3522be3e24e55b3c09b5e5b8ada8f15be55305b6",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc": "f96c634be6725964418e4ee2633bf5b3c3000adabe1619da6d2728fe79c710c3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtTor/seed12345-run1-f3be366d00501eaa": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/graphs/ns-3.49/workflow-verification-20261027/fig07_static_fairness.png",
+      "metric": "Jain of time-averaged per-flow receiver goodput",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtTor/seed12345-run1-f3be366d00501eaa"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpBbr/seed12345-run1-2cb23e04deb4f5aa": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpCubic/seed12345-run1-c0b1103a8b5f345a": "41ecb226837ada0ed71193cd3522be3e24e55b3c09b5e5b8ada8f15be55305b6",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpNewReno/seed12345-run1-7ad3f168ab5f65fc": "f96c634be6725964418e4ee2633bf5b3c3000adabe1619da6d2728fe79c710c3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtSdr/seed12345-run1-728ddc568acbf1a4": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/static/TcpQtTor/seed12345-run1-f3be366d00501eaa": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/graphs/ns-3.49/workflow-verification-20261027/fig08_buffer_power.png",
+      "metric": "power_norm; matched temporal distributions by category",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpBbr/seed12345-run1-2116b001621467d6",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpBbr/seed12345-run1-974ec8e71128a6d8",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpBbr/seed12345-run1-b307aaaf99b6bd52",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpCubic/seed12345-run1-238fb8449cb82e7e",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpCubic/seed12345-run1-a5d2fb41098252ea",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpCubic/seed12345-run1-e0763b42925d4790",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpNewReno/seed12345-run1-25df7f9be0314070",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpNewReno/seed12345-run1-484e54f928c5b126",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpNewReno/seed12345-run1-49f254bba6a6d4f8",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtSdr/seed12345-run1-98488d8c36756c58",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtSdr/seed12345-run1-a90a2e89e5c81e90",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtSdr/seed12345-run1-aa3fea1e2feaa32e",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtTor/seed12345-run1-8076cbbe19b67020",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtTor/seed12345-run1-9e88595c21c81aba",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtTor/seed12345-run1-f39a83838e865bce"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpBbr/seed12345-run1-2116b001621467d6": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpBbr/seed12345-run1-974ec8e71128a6d8": "0577bd52476073e155ced03919264974c4522d7c9b543be7a0a59b6ea43f0032",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpBbr/seed12345-run1-b307aaaf99b6bd52": "2d7e1b03b228fab565e56bf2c49f354fe0fa1e7973a7b96254115e7f219ecdcc",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpCubic/seed12345-run1-238fb8449cb82e7e": "41ecb226837ada0ed71193cd3522be3e24e55b3c09b5e5b8ada8f15be55305b6",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpCubic/seed12345-run1-a5d2fb41098252ea": "a336c884df33b567a70f23dbd138de8c04d811e447ef56f6e97298e03917506e",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpCubic/seed12345-run1-e0763b42925d4790": "d485f73f8ab7a0af9442fb0b037858685b42621befbb2a703a3522fe5d9b0abf",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpNewReno/seed12345-run1-25df7f9be0314070": "d15bf208b360b49c17a0dcced2d2a3c090e5cad8600f32c046faae09386ceee5",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpNewReno/seed12345-run1-484e54f928c5b126": "34d052f0d13eaac2fbeb4c899f65c749f93989461b3bd99a2ceb61c8ba073983",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpNewReno/seed12345-run1-49f254bba6a6d4f8": "f96c634be6725964418e4ee2633bf5b3c3000adabe1619da6d2728fe79c710c3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtSdr/seed12345-run1-98488d8c36756c58": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtSdr/seed12345-run1-a90a2e89e5c81e90": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtSdr/seed12345-run1-aa3fea1e2feaa32e": "a56a8d589f6ef85d1939e8e5285684fdbed18e8f995f5fa2192bc98507c77e1f",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtTor/seed12345-run1-8076cbbe19b67020": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtTor/seed12345-run1-9e88595c21c81aba": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/buffer/TcpQtTor/seed12345-run1-f39a83838e865bce": "053211ca5b2d799fbd4dde72b48fc1799342ab1fec95c72c645ea454be68f165"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/graphs/ns-3.49/workflow-verification-20261027/fig09_loss_power.png",
+      "metric": "power_norm; matched temporal distributions by category",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpBbr/seed12345-run1-23aa9c08350993a8",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpBbr/seed12345-run1-7b39dd8a9838cb48",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpBbr/seed12345-run1-ee9f7b6b0e91a307",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpCubic/seed12345-run1-38cddf90c0650ca4",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpCubic/seed12345-run1-564a73e6d5ef8824",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpCubic/seed12345-run1-e11cff9579c413a3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpNewReno/seed12345-run1-2d4483019aa8d265",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpNewReno/seed12345-run1-4d3ee60fde7b60b2",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpNewReno/seed12345-run1-e2fb53bb70ff3862",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtSdr/seed12345-run1-7541c4d6ee43148a",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtSdr/seed12345-run1-a955d8724f8b803a",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtSdr/seed12345-run1-cc59f8ed82ee56fd",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtTor/seed12345-run1-1deab3d0ad0447f",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtTor/seed12345-run1-30db0be23ce7b2f0",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtTor/seed12345-run1-7135beeb087f0630"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpBbr/seed12345-run1-23aa9c08350993a8": "eb8673077e2ffda9e114f62b1205d74ab750309ca47960a55b186b1093160b9d",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpBbr/seed12345-run1-7b39dd8a9838cb48": "a7f63c459a84776bbfd59400a4eb06560144e252f74e7e15dce594db7cf17bab",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpBbr/seed12345-run1-ee9f7b6b0e91a307": "a4a7233da369eab18e22c339f8b51009b2f31218ecc77868fe459ff628601af1",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpCubic/seed12345-run1-38cddf90c0650ca4": "11994750e0a3a7cb3d934b3a3f7e356ce76fa1732fc70ef775869dccf5a1e5f0",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpCubic/seed12345-run1-564a73e6d5ef8824": "56dc8fafb3c8e50aae0448984e5d284c05e9472970f1479e12959daedb8427a5",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpCubic/seed12345-run1-e11cff9579c413a3": "e93bfb66167898cbe0e6b0691c30cbb37149cecf73c28d01abe4315edaf5cb29",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpNewReno/seed12345-run1-2d4483019aa8d265": "896b6920fcf6c88cc3f59281adad3d59a47e1ac18bfacd8df66d7d78a2ffeeeb",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpNewReno/seed12345-run1-4d3ee60fde7b60b2": "f87a0f57e1dcae30aea5b9e9a4d79a1765fad895aa5cc252889a29cfaf882fe3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpNewReno/seed12345-run1-e2fb53bb70ff3862": "30c3b86aef64bc785c250eba0e37ad7be5998be6de2aa21bf078ab057e77056f",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtSdr/seed12345-run1-7541c4d6ee43148a": "2820b091e1f669d02c987330c487bdbce5bc556e8b1a1ca7cac2fcd3cb0217d6",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtSdr/seed12345-run1-a955d8724f8b803a": "75748360bbf492707b245cf1710c038e21c916569f83a12b7c8d4bdd5e49e72a",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtSdr/seed12345-run1-cc59f8ed82ee56fd": "132e8748bf16c71c634de6d4fc817cee56928a95f3162f004f9bd7b0c8ce8a61",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtTor/seed12345-run1-1deab3d0ad0447f": "d8dd7d3c70d86377b7e149db7c561144105d11805e526bdd1a36972ce38cf726",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtTor/seed12345-run1-30db0be23ce7b2f0": "1cc5151b7de8441bc8eb5e9384e21979a002e6977961c95ffab089eed7200b1b",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/loss/TcpQtTor/seed12345-run1-7135beeb087f0630": "ac9cdb1e230a71940b85479907eb92d6129dfd2b92c2534875c8ad2b55df5c89"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/graphs/ns-3.49/workflow-verification-20261027/fig10_stochastic_power.png",
+      "metric": "power_norm; matched temporal distributions by category",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-88a0d5eeec27dab5",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-d89a78d0c03be1d7",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-e52945bfceb22d88",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-5dca1aac81bc5e09",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-d093ccd54d0352a3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-fe15266b3405bc68",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-2eb5eeac062d3fb1",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-c63c3003de1d82de",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-f61d37739a9205af",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-11de25e5716271ab",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-5903adf9ced5a63d",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-a7e35df82db1e4f6",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-273be4c24962611",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-cb9a17b5e98d4958",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-e8d4b80e722406ab"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-88a0d5eeec27dab5": "fcd70cf3631c360344d7273ed8ce77086a3e38df7f27af8f5ad8c5ad7a926525",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-d89a78d0c03be1d7": "8028cb891db28f8bc3c578f3ec857d41c69380aa77148515a663daec7bdbf704",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-e52945bfceb22d88": "806f7b5b48a92ce327e5a378b89f7eedc5d44e5048c2c65ec23ef2f199899e97",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-5dca1aac81bc5e09": "11628af5149786b64b09f63e3a4a6b746973ba17f6c4084bf44dead0097fabe2",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-d093ccd54d0352a3": "078d9d9c2d4ac550dd1427196f4a9737eb7d688cdea1b81950ef281bd1ac6df3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-fe15266b3405bc68": "f6e96c910b5f8782af05ff9ddf40179c56c1223e98a1e4423823cca42f37e670",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-2eb5eeac062d3fb1": "dc4f58ee43de420a5d97be3537f345aed301f5de4bb377532b74ebd595b85e53",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-c63c3003de1d82de": "45c3687afcca0bab038664b212dd0ae5a5eba709417738222f315fee0e158332",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-f61d37739a9205af": "d287f525c4b4318bdb72b9a27fb9173fb0c0420bc2635c9cd394eb44e87d5b5c",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-11de25e5716271ab": "e4207bbbbd8302ac9f4a931348f1b6cd04612b88a752240079e9f94150cc1009",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-5903adf9ced5a63d": "bb7531dd1f5132b1080c152f24948baad4b891c134b366460709eaa276248953",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-a7e35df82db1e4f6": "44539065f3043924bb366a30f4379fed4c38b55b49ec1db92608da3998cd1032",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-273be4c24962611": "698787a564dfa90b7bc9721612f5bdd99ef2e3c036c03759fae7164966894866",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-cb9a17b5e98d4958": "2f3dbac69ed919b0eebae1ad8c8b204ab145a678eb92123739c205376c578335",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-e8d4b80e722406ab": "bb5eb9793ca29f96fa1fb957048f12f4a30633473ba646f352e3b4b77c9644e5"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/graphs/ns-3.49/workflow-verification-20261027/fig11_stochastic_rtt.png",
+      "metric": "mean_rtt_ms; matched temporal distributions by category",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-88a0d5eeec27dab5",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-d89a78d0c03be1d7",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-e52945bfceb22d88",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-5dca1aac81bc5e09",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-d093ccd54d0352a3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-fe15266b3405bc68",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-2eb5eeac062d3fb1",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-c63c3003de1d82de",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-f61d37739a9205af",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-11de25e5716271ab",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-5903adf9ced5a63d",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-a7e35df82db1e4f6",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-273be4c24962611",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-cb9a17b5e98d4958",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-e8d4b80e722406ab"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-88a0d5eeec27dab5": "fcd70cf3631c360344d7273ed8ce77086a3e38df7f27af8f5ad8c5ad7a926525",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-d89a78d0c03be1d7": "8028cb891db28f8bc3c578f3ec857d41c69380aa77148515a663daec7bdbf704",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-e52945bfceb22d88": "806f7b5b48a92ce327e5a378b89f7eedc5d44e5048c2c65ec23ef2f199899e97",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-5dca1aac81bc5e09": "11628af5149786b64b09f63e3a4a6b746973ba17f6c4084bf44dead0097fabe2",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-d093ccd54d0352a3": "078d9d9c2d4ac550dd1427196f4a9737eb7d688cdea1b81950ef281bd1ac6df3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-fe15266b3405bc68": "f6e96c910b5f8782af05ff9ddf40179c56c1223e98a1e4423823cca42f37e670",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-2eb5eeac062d3fb1": "dc4f58ee43de420a5d97be3537f345aed301f5de4bb377532b74ebd595b85e53",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-c63c3003de1d82de": "45c3687afcca0bab038664b212dd0ae5a5eba709417738222f315fee0e158332",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-f61d37739a9205af": "d287f525c4b4318bdb72b9a27fb9173fb0c0420bc2635c9cd394eb44e87d5b5c",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-11de25e5716271ab": "e4207bbbbd8302ac9f4a931348f1b6cd04612b88a752240079e9f94150cc1009",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-5903adf9ced5a63d": "bb7531dd1f5132b1080c152f24948baad4b891c134b366460709eaa276248953",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-a7e35df82db1e4f6": "44539065f3043924bb366a30f4379fed4c38b55b49ec1db92608da3998cd1032",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-273be4c24962611": "698787a564dfa90b7bc9721612f5bdd99ef2e3c036c03759fae7164966894866",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-cb9a17b5e98d4958": "2f3dbac69ed919b0eebae1ad8c8b204ab145a678eb92123739c205376c578335",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-e8d4b80e722406ab": "bb5eb9793ca29f96fa1fb957048f12f4a30633473ba646f352e3b4b77c9644e5"
+      }
+    },
+    {
+      "png": "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/graphs/ns-3.49/workflow-verification-20261027/supplement_ou_capacity.png",
+      "metric": "physical forward capacity; matching SHA-256 across algorithms",
+      "sourceRuns": [
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-88a0d5eeec27dab5",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-d89a78d0c03be1d7",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-e52945bfceb22d88",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-5dca1aac81bc5e09",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-d093ccd54d0352a3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-fe15266b3405bc68",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-2eb5eeac062d3fb1",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-c63c3003de1d82de",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-f61d37739a9205af",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-11de25e5716271ab",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-5903adf9ced5a63d",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-a7e35df82db1e4f6",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-273be4c24962611",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-cb9a17b5e98d4958",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-e8d4b80e722406ab"
+      ],
+      "aggregateSha256": {
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-88a0d5eeec27dab5": "fcd70cf3631c360344d7273ed8ce77086a3e38df7f27af8f5ad8c5ad7a926525",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-d89a78d0c03be1d7": "8028cb891db28f8bc3c578f3ec857d41c69380aa77148515a663daec7bdbf704",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpBbr/seed12345-run1-e52945bfceb22d88": "806f7b5b48a92ce327e5a378b89f7eedc5d44e5048c2c65ec23ef2f199899e97",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-5dca1aac81bc5e09": "11628af5149786b64b09f63e3a4a6b746973ba17f6c4084bf44dead0097fabe2",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-d093ccd54d0352a3": "078d9d9c2d4ac550dd1427196f4a9737eb7d688cdea1b81950ef281bd1ac6df3",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpCubic/seed12345-run1-fe15266b3405bc68": "f6e96c910b5f8782af05ff9ddf40179c56c1223e98a1e4423823cca42f37e670",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-2eb5eeac062d3fb1": "dc4f58ee43de420a5d97be3537f345aed301f5de4bb377532b74ebd595b85e53",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-c63c3003de1d82de": "45c3687afcca0bab038664b212dd0ae5a5eba709417738222f315fee0e158332",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpNewReno/seed12345-run1-f61d37739a9205af": "d287f525c4b4318bdb72b9a27fb9173fb0c0420bc2635c9cd394eb44e87d5b5c",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-11de25e5716271ab": "e4207bbbbd8302ac9f4a931348f1b6cd04612b88a752240079e9f94150cc1009",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-5903adf9ced5a63d": "bb7531dd1f5132b1080c152f24948baad4b891c134b366460709eaa276248953",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtSdr/seed12345-run1-a7e35df82db1e4f6": "44539065f3043924bb366a30f4379fed4c38b55b49ec1db92608da3998cd1032",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-273be4c24962611": "698787a564dfa90b7bc9721612f5bdd99ef2e3c036c03759fae7164966894866",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-cb9a17b5e98d4958": "2f3dbac69ed919b0eebae1ad8c8b204ab145a678eb92123739c205376c578335",
+        "/Users/dumisangwenya/Documents/ChatGPT/IET paper revision/queueing_theory_tcp_iet_article/iet-sims/trace-results/ns-3.49/workflow-verification-20261027/stochastic/TcpQtTor/seed12345-run1-e8d4b80e722406ab": "bb5eb9793ca29f96fa1fb957048f12f4a30633473ba646f352e3b4b77c9644e5"
+      }
+    }
+  ],
+  "skippedComparisons": [],
+  "rejectedRuns": [],
+  "notes": [
+    "Measured CSV data only; NaNs omitted from distributions.",
+    "Boxplots use temporal 0.1-second samples, not independent replications.",
+    "Whiskers: 1.5 IQR; outliers shown. No smoothing or y-value clipping.",
+    "Power plots with peaks above 1.5 use a labelled linear-below-1/log-above-1 scale.",
+    "Local improved Qt models; figures do not assert reproduction of published values."
+  ]
+}
