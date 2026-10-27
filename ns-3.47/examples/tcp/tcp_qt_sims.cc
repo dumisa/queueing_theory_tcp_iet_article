@@ -252,8 +252,13 @@ ParseSettings(Settings& c, int argc, char* argv[])
     cmd.AddValue("tracing", "Write optional high-resolution per-flow socket events", c.tracing);
     cmd.AddValue("pcap", "Capture both bottleneck directions", c.pcap);
     cmd.AddValue("progress", "Print progress once per second", c.progress);
+    // Preserve whitespace in filesystem paths instead of using stream extraction.
     cmd.AddValue("sim_name",
                  "Results root; each configuration gets a separate directory",
+                 Callback<bool, const std::string&>([&c](const std::string& value) {
+                     c.outputRoot = value;
+                     return true;
+                 }),
                  c.outputRoot);
     cmd.AddValue("overwrite",
                  "Explicitly replace outputs for an existing configuration",
